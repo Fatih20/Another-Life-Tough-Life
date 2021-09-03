@@ -4,18 +4,19 @@ import { display_end_screen } from "./end_game.js";
 import * as event_file from "../for_designer/story.js";
 import * as config from "../for_designer/config.js";
 
-
 export function director (path_taken, signal) {
     const current_event = event_file.event_name_conversion[path_taken[path_taken.length-1].name_of_event];
     const nth_current_event = path_taken[path_taken.length-1].nth_event;
     path_taken[path_taken.length-1].choice_made = signal;
     for (let answer_for_next_event of current_event.Answers_For_Next_Event_List){
         if (signal === answer_for_next_event.trigger) {
-            if (answer_for_next_event.next_event_name === "End"){
+            path_taken.push({nth_event : (parseInt(nth_current_event)+1).toString(), name_of_event : answer_for_next_event.next_event_name});
+            if (event_file.event_name_conversion[answer_for_next_event.next_event_name].End_Game_Event){
+                path_taken[path_taken.length-1].choice_made = "A";
+                localStorage.setItem("path_taken", JSON.stringify(path_taken));
                 display_end_screen(path_taken);
                 break;
             } else {
-                path_taken.push({nth_event : (parseInt(nth_current_event)+1).toString(), name_of_event : answer_for_next_event.next_event_name});
                 localStorage.setItem("path_taken", JSON.stringify(path_taken));
                 update_play_area(path_taken, event_file, config.animation.use_animation);
                 break;
