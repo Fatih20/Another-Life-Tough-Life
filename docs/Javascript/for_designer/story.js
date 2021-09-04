@@ -762,18 +762,448 @@ export const Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau = new
 	End_Game_Event : true
 });
 
-export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Harin = new Event ({
-	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
-	Occurence : "Setelah mendobrak, kamu terkejut karena ada respon suara seperti suara berat pria dari dalam. Sepertinya firasatmu benar, ada manusia di dalam pondok ini. Karena kamu sudah telanjur mendobrak, tidak ada jalan kembali lagi.​",
+export const Kamu_Menemukan_Pondok_Kecil_Rute_Biru = new Event ({
+	Name : "Kamu_Menemukan_Pondok_Kecil_Rute_Biru",
+	Occurence : "ejutan! Ternyata di balik cahaya itu adalah sebuah pondok kecil. Arsitekturnya mirip dengan pondok yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Kamu langsung berjalan menuju sumber suara untuk memastikan.​"
+			answer : "Kamu mengetuk pintu dengan keras, lalu menggenggam belatimu erat-erat di belakang punggungmu. Kamu tidak tahu apa yang ada di balik pintu itu, dan merasa harus bersiap dengan kemungkinan terburuk.​​"
+		},
+		{
+			id : "B",
+			answer : "Kamu memilih tidak mengambil risiko. Karena tidak mengetahui apa-apa soal dunia ini, kamu memutuskan untuk mendobrak pintu depan.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru = new Event ({
+	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru",
+	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Pondok ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Meskipun kamu tidak mengerti bahasanya, kamu memutuskan untuk tidak lengah. Kamu segera mengacungkan belatimu di hadapan pria itu.​"
+		},
+		{
+			id : "B",
+			answer : "Melihat wajahnya yang begitu ketakutan dan cemas, kamu mengurungkan niatmu untuk menakutinya dengan belati. Kamu mencoba menjelaskan situasimu dengan Bahasa isyarat sebisamu. ​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru = new Event ({
+	Name : "Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru",
+	Occurence : "Pria itu rupanya juga menyimpan sebilah belati dari balik punggungnya. Dia juga mengacungkannya di hadapanmu dengan wajah yang ketakutan.  ​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu tidak ragu sama sekali. Kamu langsung mengayunkan belatimu dengan cepat ke arah pria dihadapanmu. ​"
+		},
+		{
+			id : "B",
+			answer : "amu masih berpikir tentang langkahmu selanjutnya. Kamu tidak ingin terburu-buru.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun = new Event ({
+	Name : "Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun",
+	Occurence : "Terlambat. Ternyata pria itu langsung tanpa ampun melayangkan pisaunya ke arah lehermu, memotong lehermu seketika. Kamu tidak punya waktu lagi untuk bereaksi.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Berhasil_Menyerang_Pria_Itu_Dan_Mulai_Merasa_Ragu = new Event ({
+	Name : "Kamu_Berhasil_Menyerang_Pria_Itu_Dan_Mulai_Merasa_Ragu",
+	Occurence : "​​Kamu berhasil menebas Sebagian badannya. Pria itu mundur ke belakang sedikit. Ia memegangi sayatan di bajunya yang mulai penuh dengan warna merah. Kamu juga mulai bergetar. Melihat pemandangan di hadapanmu, tanganmu juga mulai gemetaran. Kamu menatapi belatimu yang berlumuran darah. Pemikiran soal membunuh seseorang belum pernah tebersit di kepalamu akan jadi begitu mengerikan seperti ini.",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu tetap menggertakkan gigimu, dan melancarkan serangan selanjutnya tanpa ragu. Kamu harus bertahan hidup dari segala ancaman, bagaimanapun caranya. ​"
+		},
+		{
+			id : "B",
+			answer : "Kamu mulai bergetaran hebat. Kamu tidak bisa menyingkirkan keraguan dari kepalamu dari fakta bahwa kamu bisa saja membunuh orang dalam sekejap dengan tanganmu sendiri.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Mati_Terbunuh_Oleh_Pria_Itu_Karena_Ragu_Soal_Pilihanmu = new Event ({
+	Name : "Kamu_Mati_Terbunuh_Oleh_Pria_Itu_Karena_Ragu_Soal_Pilihanmu",
+	Occurence : "Sudah terlambat. Kamu yang semakin goyah dengan pendirianmu sendiri membuat dirimu penuh dengan celah. Pria di hadapanmu sekarang tidak menyia-nyiakan kesempatannya, dan segera menghambur ke arahmu dan menebasmu dengan telak. Tebasan itu begitu dalam, dan kamu mulai perlahan kehilangan kesadaranmu dari pendarahan hebat. Dan kamu tidak membuka matamu lagi setelah itu.",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu = new Event ({
+	Name : "Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu",
+	Occurence : "Kali ini, kamu benar-benar mengakhiri hidup pria di hadapanmu dengan sebuah tusukan belati tepat ke jantungnya. Kamu lalu mencabut belatinya, dan mulai menjauh dari tubuhnya yang mulai mengucurkan darah di lantai hingga berkubang. Kamu bernapas terengah-engah. Sekarang hanya tersisa dirimu dan sebuah tubuh pria di hadapanmu yang sekarang sudah menjadi bangkai.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Selanjutnya kamu memutuskan membawa tubuh itu keluar ke tempat yang jauh di dalam hutan, menguburnya dengan segera. ​"
+		},
+		{
+			id : "B",
+			answer : "​Kamu memutuskan untuk menguburkan tubuh itu di dekat rumah.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Mati_Dibunuh_Hewan_Buas_Di_Dalam_Rumah = new Event ({
+	Name : "Kamu_Mati_Dibunuh_Hewan_Buas_Di_Dalam_Rumah",
+	Occurence : "Setelah mengubur badan itu di dekat rumah, kamu mulai berusaha untuk membiasakan diri dengan lingkungan sekitar, sekaligus menenangkan diri setelah membunuh seorang manusia. Namun di malam harinya, sekelompok hewan buas yang pernah kamu lihat tiba-tiba dating dan mengepung rumah dari segala arah, bahkan ada yang masuk melalui pintu dan mengendus-endus di tempat bekas kamu membunuh pria tadi—mungkin aroma darahnya masih tersisa. Kamu mencoba untuk mengusir sekelompok hewan itu, tapi kamu sama sekali bukan tandingan hewan yang gesit itu di tempat yang sempit seperti ini. Kamu juga mati terbunuh oleh hewan itu di dalam rumahmu.",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Mati_Kelaparan_Karena_Tidak_Bisa_Bertahan_Hidup_Di_Tengah_Hutan = new Event ({
+	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
+	Occurence : "Kini kamu hidup sendiri di dalam rumah itu. Meskipun kamu tentunya sudah berencana untuk berusaha bertahan hidup sebisa mungkin, namun tetap saja kamu sama sekali tidak tahu menahu soal dunia baru ini. Setelah beberapa minggu, makanan di rumah pun akhirnya habis dan kamu tidak tahu darimana mendapatkan sumber makanan. Kamu tidak ingin menghadapi hewan buas itu lagi karena sangat berbahaya. Akhirnya kamu mati kelaparan di rumah itu karena tidak mampu bertahan hidup.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru = new Event ({
+	Name : "Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru",
+	Occurence : "Setelah mendobrak, kamu langsung bersembunyi karena ada respon suara dari dalam. Sepertinya firasatmu benar, ada manusia di dalam pondok ini. ​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu bersiaga di tempatmu dengan belati di tanganmu, bersembunyi di balik dinding. bersiap dengan kemungkinan terburuk."
+		},
+		{
+			id : "B",
+			answer : "Kamu memilih untuk tidak menyiapkan belati di tanganmu. Bila memang benar itu manusia, kamu berharap untuk berkomunikasi dengannya scr baik-baik dahulu.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_Bahasa_Isyarat = new Event ({
+	Name : "Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_Bahasa_Isyarat",
+	Occurence : "Benar, ada manusia di dalam. Seorang pria paruh baya menampakkan diri di hadapanmu, tangannya sudah bersiap membawa belati. Wajahnya tampak ketakutan dan dan mulai mengoceh dengan Bahasa yang tidak kamu mengerti. Namun sesuai niat awalmu, kamu ingin berkomunikasi dengan baik-baik.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Karena tidak mengerti sama sekali, kamu menggunakan Bahasa isyarat untuk berusaha menjelaskan apa yang terjadi."
 		}
 	],
 	Answers_For_Next_Event_List : [
 		{trigger : "A", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Dibunuh_Tanpa_Ampun_Karena_Kamu_Menakutinya_Setelah_Mendobrak_Pintu = new Event ({
+	Name : "Kamu_Dibunuh_Tanpa_Ampun_Karena_Kamu_Menakutinya_Setelah_Mendobrak_Pintu",
+	Occurence : "​​Namun, tetap tidak ada gunanya. Pria itu tampak ketakutan sekali setelah melihat pintu depannya yang kamu dobrak tadi tanpa ampun. Tanpa aba-aba, ia langsung memotong kepalamu seketika. Kamu tidak bisa bereaksi apapun sama sekali.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada = new Event ({
+	Name : "Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada",
+	Occurence : "Benar, ada manusia di dalam. Seorang pria paruh baya menampakkan dirinya, tangannya sudah bersiap membawa belati. Wajahnya tampak ketakutan dan dan mulai berseru-seru dalam Bahasa yang tidak kamu mengerti. Namun sesuai niat awalmu, kamu tetap waspada.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Merasakan aura bahaya dari pria yang membawa belati itu, Tanpa aba-aba, kamu langsung melancarkan serangan kejutan dari tempatmu bersembunyi dan langsung mengincar lehernya.​"
+		},
+		{
+			id : "B",
+			answer : "Kamu masih memperhitungkan kapan akan melancarkan serangan dari persembunyianmu agar berjalan lancar.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Persembunyianmu_Berhasil_Diketahui_Dan_Kamu_Langsung_Dihabisi_Seketika = new Event ({
+	Name : "Persembunyianmu_Berhasil_Diketahui_Dan_Kamu_Langsung_Dihabisi_Seketika",
+	Occurence : "​​Tiba-tiba, pria itu menoleh ke arah persembunyianmu. Entah mungkin karena tempat bersembunyimu kurang bagus, atau kamu yang tidak bisa menyembunyikan keberadaanmu dengan baik. Pria itu memanfaatkan kelengahanmu dan dalam sekejap berhasil menghabisimu dengan belatinya.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Serangan_Mendadakmu_Meleset_Dan_Kamu_Bertarung = new Event ({
+	Name : "Serangan_Mendadakmu_Meleset_Dan_Kamu_Bertarung",
+	Occurence : "​​Karena seranganmu yang terburu-buru, jaraknya tidak pas dan seranganmu meleset. Refleks pria itu langsung membawanya untuk melompat menjauh darimu. Setelah semua ini, tidak ada pilihan lain selain mengharuskanmu untuk bertarung.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu langsung menyerbu langsung ke arah pria itu dan mengayunkan belatimu dengan sekuat tenaga tanpa ampun. ​"
+		},
+		{
+			id : "B",
+			answer : "​Kamu  langsung mendekati pria itu dan mengincar bagian vitalnya.​"
+		},
+		{
+			id : "C",
+			answer : "Kamu menjaga jarak terlebih dahulu dan memasang kuda-kuda, memperhatikan sekitar.​"
+		},
+		{
+			id : "D",
+			answer : "Menganggap dirimu sendiri sama sekali tidak berpengalaman dalam pertarungan langsung lalu serangan kejutanmu juga gagal, kamu menyerah begitu saja dari awal mengharap ampunan.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""},
+		{trigger : "C", next_event_name : ""},
+		{trigger : "D", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Serangan_Membabi_Buta_Gagal_Dan_Kamu_Tewas_Karena_Cedera_Otak_Parah = new Event ({
+	Name : "Serangan_Membabi_Buta_Gagal_Dan_Kamu_Tewas_Karena_Cedera_Otak_Parah",
+	Occurence : "​​Pria itu dengan mudah menghindari serangan membabi butamu, menangkap tanganmu, lalu membantingmu ke lantai tanpa ampun. Kamu benar-benar sial saat itu, kepalamu membentur lantai duluan dengan keras. Kamu tidak terbangun lagi setelah itu.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Seranganmu_Berhasil_Ditangkis_Dan_Kamu_Berhasil_Dihabisi = new Event ({
+	Name : "Seranganmu_Berhasil_Ditangkis_Dan_Kamu_Berhasil_Dihabisi",
+	Occurence : "Pria itu langsung mengadu tusukan belatimu yang mengarah ke bagian vital dengan belati miliknya. Kamu terlempar ke belakang. Dengan membuka celah yang lebar, pria itu enggan mudah menghabisimu dari depan. Kamu tidak bisa berkutik sedikitpun di hadapan ayunan ganas belati yang menyabikmu.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Ampunanmu_Tidak_Digubris_Dan_Kamu_Langsung_Dihabisi_Karena_Mencurigakan = new Event ({
+	Name : "Ampunanmu_Tidak_Digubris_Dan_Kamu_Langsung_Dihabisi_Karena_Mencurigakan",
+	Occurence : "Kamu mengharap ampunan, tapi tidak ada gunanya sama sekali. Setelah mendobrak pintu depan tadi dan melancarkan serangan kejutan, sepertinya pria itu sama sekali tidak memercayaimu. Dia langsung menghabisimu tanpa ampun saat itu juga.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Melempar_Barang_Ke_Arah_Pria_Itu_Dan_Kamu_Mulai_Bertarung = new Event ({
+	Name : "Kamu_Melempar_Barang_Ke_Arah_Pria_Itu_Dan_Kamu_Mulai_Bertarung",
+	Occurence : "Kamu tidak meremehkan pria di hadapanmu itu, dan kamu langsung menganggapnya sebuah keberadaan yang sangat berbahaya bagimu sekarang. Kamu mencoba melempar beberapa barang di sekitarmu kearahnya, namun berhasil dihindarinya dengan mudah. Sekarang pria itu berlari ke arahmu dan bersiap menyerang dengan mengayunkan belatinya.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu mengandalkan refleksmu untuk menepis belati itu dengan belati milikmu.​"
+		},
+		{
+			id : "B",
+			answer : "Kamu mendadak menjadi panik dengan kematian yang membayangimu dengan cepat dari serangan itu. Kamu memutuskan untuk melempar belati milikmu ke arah pria itu.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Lemparan_Belatimu_Ditangkis_Dengan_Mudahnya_Dan_Kamu_Dihabisi_Setelahnya = new Event ({
+	Name : "Lemparan_Belatimu_Ditangkis_Dengan_Mudahnya_Dan_Kamu_Dihabisi_Setelahnya",
+	Occurence : "Pria itu menepis lemparan belatimu dengan mudahnya. Setelah itu, tentu saja tanpa ampun dia menyerangmu habis-habisan dan tentu saja kamu sudah tidak bisa berbuat apa-apa lagi.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_Hingga_Terjatuh = new Event ({
+	Name : "Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_Hingga_Terjatuh",
+	Occurence : "Kamu berhasil menepis belati itu, kedua belati terlepas dari tangan dan terlempar jauh. Kamu juga berhasil menghindar ke samping. Badanmu oleng, tapi kamu berhasil melayangkan sebuah tendangan ke perut pria itu hingga membuatnya terjatuh.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu tidak melewatkan kesempatan ini. Dengan tangan kosong, kamu menghajar orang itu tanpa ampun dengan tangan kosong.​"
+		},
+		{
+			id : "B",
+			answer : "Kamu memilih untuk mengambil belatimu yang terjatuh tadi, lalu segera kembali.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun = new Event ({
+	Name : "Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun",
+	Occurence : "Pria itu menepis lemparan belatimu dengan mudahnya. Setelah itu, tentu saja tanpa ampun dia menyerangmu habis-habisan dan tentu saja kamu sudah tidak bisa berbuat apa-apa lagi.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Sayangnya, kamu tidak cukup cepat. Kamu langsung dilempari barang-barang oleh pria tadi dari titik butamu. Kamu sama sekali tidak bisa menghindar. Lalu pria itu langsung memanfaatkan kamu yang sedang kesakitan, menghajarmu sampai babak belur. Setelah kamu tidak bisa bergerak lagi, dia mengambil belati miliknya yang terjatuh tadi dan menghabisimu seketika.​"
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya = new Event ({
+	Name : "Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya",
+	Occurence : "Setelah kamu menghajarnya hingga babak belur parah, kamu beranjak untuk mengambil belatimu yang terjatuh tadi. Kamu punya kesempatan besar untuk menghabisinya sekarang. Namun, karena belum pernah membunuh orang sebelumnya, saat pikiran soal itu tebersit di kepalamu, kamu mulai berpikir ragu dan takut soal apa  yang akan kamu lakukan setelah ini.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu tetap membulatkan tekadmu, dan menghilangkan seluruh keraguanmu. Kamu tetap berpegang pada prinsipmu untuk terus bertahan hidup.​"
+		},
+		{
+			id : "B",
+			answer : "​Kamu mulai ketakutan dan gemetaran. Kamu mulai meragukan apa yang sudah kamu lakukan di rumah sebuah orang asing di dunia lain ini sampai sekarang.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu = new Event ({
+	Name : "Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu",
+	Occurence : "Saat kamu mulai meragukan dirimu sendiri, pria itu mengambil kesempatan dan mulai menghajarmu tanpa ampun, membalikkan keadaan. Ia juga mengambil belati miliknya, dan menghabisimu yang sudah babak belur dengan parah.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Harin = new Event ({
+	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
+	Occurence : "​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		},
+		{
+			id : "B",
+			answer : "​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
 	],
 	Lazy_Mode : true
 });
@@ -816,6 +1246,29 @@ export const event_name_conversion = {
 	"Ternyata_Ada_Seseorang_Pria_Di_Dalam_Sambil_Membawa_Belati" : Ternyata_Ada_Seseorang_Pria_Di_Dalam_Sambil_Membawa_Belati,
 	"Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan" : Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan,
 	"Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu" : Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu,
-	"Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau" : Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau
-
+	"Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau" : Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau,
+	"Kamu_Menemukan_Pondok_Kecil_Rute_Biru" : Kamu_Menemukan_Pondok_Kecil_Rute_Biru,
+	"Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru" : Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru,
+	"Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru" : Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru,
+	"Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun" : Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun,
+	"Kamu_Berhasil_Menyerang_Pria_Itu_Dan_Mulai_Merasa_Ragu" : Kamu_Berhasil_Menyerang_Pria_Itu_Dan_Mulai_Merasa_Ragu,
+	"Kamu_Mati_Terbunuh_Oleh_Pria_Itu_Karena_Ragu_Soal_Pilihanmu" : Kamu_Mati_Terbunuh_Oleh_Pria_Itu_Karena_Ragu_Soal_Pilihanmu,
+	"Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu" : Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu,
+	"Kamu_Mati_Dibunuh_Hewan_Buas_Di_Dalam_Rumah" : Kamu_Mati_Dibunuh_Hewan_Buas_Di_Dalam_Rumah,
+	"Kamu_Mati_Kelaparan_Karena_Tidak_Bisa_Bertahan_Hidup_Di_Tengah_Hutan" : Kamu_Mati_Kelaparan_Karena_Tidak_Bisa_Bertahan_Hidup_Di_Tengah_Hutan,
+	"Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru" : Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru,
+	"Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_Bahasa_Isyarat" : Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_Bahasa_Isyarat,
+	"Kamu_Dibunuh_Tanpa_Ampun_Karena_Kamu_Menakutinya_Setelah_Mendobrak_Pintu" : Kamu_Dibunuh_Tanpa_Ampun_Karena_Kamu_Menakutinya_Setelah_Mendobrak_Pintu,
+	"Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada" : Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada,
+	"Persembunyianmu_Berhasil_Diketahui_Dan_Kamu_Langsung_Dihabisi_Seketika" : Persembunyianmu_Berhasil_Diketahui_Dan_Kamu_Langsung_Dihabisi_Seketika,
+	"Serangan_Mendadakmu_Meleset_Dan_Kamu_Bertarung" : Serangan_Mendadakmu_Meleset_Dan_Kamu_Bertarung,
+	"Serangan_Membabi_Buta_Gagal_Dan_Kamu_Tewas_Karena_Cedera_Otak_Parah" : Serangan_Membabi_Buta_Gagal_Dan_Kamu_Tewas_Karena_Cedera_Otak_Parah,
+	"Seranganmu_Berhasil_Ditangkis_Dan_Kamu_Berhasil_Dihabisi" : Seranganmu_Berhasil_Ditangkis_Dan_Kamu_Berhasil_Dihabisi,
+	"Ampunanmu_Tidak_Digubris_Dan_Kamu_Langsung_Dihabisi_Karena_Mencurigakan" : Ampunanmu_Tidak_Digubris_Dan_Kamu_Langsung_Dihabisi_Karena_Mencurigakan,
+	"Kamu_Melempar_Barang_Ke_Arah_Pria_Itu_Dan_Kamu_Mulai_Bertarung" : Kamu_Melempar_Barang_Ke_Arah_Pria_Itu_Dan_Kamu_Mulai_Bertarung,
+	"Lemparan_Belatimu_Ditangkis_Dengan_Mudahnya_Dan_Kamu_Dihabisi_Setelahnya" : Lemparan_Belatimu_Ditangkis_Dengan_Mudahnya_Dan_Kamu_Dihabisi_Setelahnya,
+	"Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_Hingga_Terjatuh" : Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_Hingga_Terjatuh,
+	"Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun" : Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun,
+	"Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya" : Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya,
+	"Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu" : Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu
 };
