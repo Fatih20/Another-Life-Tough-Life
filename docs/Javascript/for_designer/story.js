@@ -1187,6 +1187,209 @@ export const Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Kea
 	End_Game_Event : true
 });
 
+export const Kamu_Menemukan_Pondok_Kecil_Rute_Kuning = new Event ({
+	Name : "Kamu_Menemukan_Pondok_Kecil_Rute_Kuning",
+	Occurence : "Kejutan! Ternyata di balik cahaya itu adalah sebuah pondok kecil. Arsitekturnya mirip dengan pondok yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Dengan asumsi di dalamnya berisi manusia, kamu mengharapkan untuk bisa berkomunikasi dengannya nanti."
+		},
+		{
+			id : "B",
+			answer : "Kamu memilih tidak mengambil risiko. Karena tidak mengetahui apa-apa soal dunia ini, kamu memutuskan untuk mendobrak pintu depan.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning = new Event ({
+	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning",
+	Occurence : "​​Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Pondok ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Meskipun tidak mengerti bahasanya, namun kamu tetap berusaha untuk berkomunikasi dengan pria di hadapanmu sekarang ini dengan Bahasa isyarat.​"
+		},
+		{
+			id : "B",
+			answer : "Kamu juga mulai kebingungan dan mulai agitated.  Karena tidak bisa berkomunikasi. Kamu mulai memikirkan cara lain.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanmu = new Event ({
+	Name : "Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanmu",
+	Occurence : "​​Kamu tebersit sebuah ide. Kamu sudah membunuh seekor hewan buas tadi dan sekarang kamu membawa beberapa potongan dagingnya di dalam saku pakaianmu. Bagaimana bila kamu bisa menakut-nakuti pria di hadapanmu sekarang dengan itu?​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu tidak berpikir panjang, dan segera mencobanya saja. Apa reaksi pria di hadapannya terhadap itu ia pikirkan nanti."
+		},
+		{
+			id : "B",
+			answer : "​Kamu urung melakukannya. Kamu berpikir, pasti pria di hadapanmu sekarang ini seorang pemburu handal, lagipula dia hidup di tengah hutan berbahaya seperti ini. Pikirmu, gertakanmu takkan mempan.​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning = new Event ({
+	Name : "Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning",
+	Occurence : "Pria itu rupanya juga menyimpan sebilah belati dari balik punggungnya. Dia juga mengacungkannya di hadapanmu dengan wajah yang ketakutan.  ​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "​Kamu mendadak panik melihatnya dan memutuskan untuk menggertaknya dengan hasil buruanmu seperti niatanmu sebelumnya. ​"
+		},
+		{
+			id : "B",
+			answer : "Kamu tetap berusaha untuk tenang, dan kembali memikirkan caramu untuk berhadapan dengan situasi tegang ini."
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi = new Event ({
+	Name : "Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi",
+	Occurence : "Pria di hadapanmu tiba-tiba berteriak. Dia sepertinya benar-benar terkejut setelah melihat potongan daging yang kamu tunjukkan. Dia mulai mencerocos dalam Bahasa asing, memelukmu dengan erat. Kamu juga mendadak kebingungan. Apa yang sebenarnya orang ini lakukan?​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "​Kamu menambah kewaspadaanmu, perubahan sifat orang ini tidak bisa kamu prediksi sama sekali. Kamu melepaskan pelukan orang itu dan menjaga jarak.​"
+		},
+		{
+			id : "B",
+			answer : "Kamu membiarkan saja orang itu tetap memelukmu erat, percaya kalau ekspresi bahagia yang sedang ia tunjukkan sekarang bukanlah bohongan. ​​​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu = new Event ({
+	Name : "Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu",
+	Occurence : "​​Pria itu selanjutnya mengajakmu ke dalam—kurang lebih itu yang kamu pahami dari perilaku yang ditunjukkan pria itu sekarang.",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "​Meskipun tidak percaya dengan pria di hadapanmu ini, kamu tetap mengharapkan agar bisa menginap terlebih dahulu. Lagipula hari sudah malam. ​"
+		},
+		{
+			id : "B",
+			answer : "Kamu semakin tidak bisa percaya dengan pria ini. Kamu memutuskan untuk kabur secepatnya dari TKP, sebelum hal sangat buruk yang sangat mungkin terjadi dalam situasi ini.​",
+			condition_list : [
+				{
+					type: "specific_event_checker", 
+					specification : {
+						event_name : "Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi",
+						choice : "A"}
+				}
+			]
+		},
+		{
+			id : "C",
+			answer : "Kamu memutuskan untuk percaya dan masuk, berpikir bahwa tidak ada gunanya mundur sekarang. Kamu harus bisa beristirahat di sini sampai besok hari mumpung ada kesempatan.​",
+			condition_list : [
+				{
+					type: "specific_event_checker", 
+					specification : {
+						event_name : "Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi",
+						choice : "B"}
+				}
+			]
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari = new Event ({
+	Name : "Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari",
+	Occurence : "Karena hari sudah malam, penerangan sangat minim dan kamu tidak bisa melihat dengan jelas dalam gulitanya malam. Setelah berlari cukup jauh dari tempat itu, kamu akhirnya bisa yakin kalau tidak ada yang mengikutimu dari belakang. Namun pada akhirnya, kamu mulai mendengar suara gerungan dari hewan-hewan buas dan tatapan mata mereka yang berkilauan. Mereka mulai mendekatimu. Kamu sudah waspada dan berlari menjauh dari tempat itu, tapi kamu sama sekali tidak mengetahui isi hutan ini ditambah dengan semuanya yang serba gelap gulita. Kamu mati termangsa oleh sekumpulan hewan itu pada malam itu.​​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung = new Event ({
+	Name : "Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung",
+	Occurence : "​​Pria itu mengantarmu ke dalam salah satu ruangan dalam rumah itu. Dari gestur tubuhnya, sepertinya dia mempersilakanmu untuk beristirahat. Dia juga meminta potongan-potongan daging hewan buas yang kamu bunuh tadi, dan kamu semakin kebingungan dan heran soal ini.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "​Kamu memutuskan untuk memberikannya tanpa bertanya, kamu justru sekarang menjadi kebingungan kenapa pria itu malah tidak takut denganmu yang datang dengan membawa ini. ​"
+		},
+		{
+			id : "B",
+			answer : "Kamu memutuskan untuk tidak memberikannya. Kamu lebih memilihi untuk tidak melakukan hal yang mungkin bisa mendatangkan risiko ke depannya. Lagipula, kamu awalnya mau masuk ke rumah ini karena hari sudah malam dan kamu butuh tempat untuk bernaung.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain = new Event ({
+	Name : "Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain",
+	Occurence : "​​Setelah kamu melangkah masuk ke dalam ruangan itu, pria itu kemudian menutup pintu dari luar. Sekarang kamu sendirian di dalma ruangan yang benar-benar asing ini, di dalam dunia lain yang benar-benar asing bagimu.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Pada akhirnya, kamu tetap waspada dan mencoba untuk bertahan tidak tidur selama semalaman  penuh, untuk berjaga-jaga dari marabahaya yang sama sekali tidak bisa kamu prediksi. ​​"
+		},
+		{
+			id : "B",
+			answer : "Kamu memutuskan untuk mengistirahatkan badanmu. Kamu memang sudah kecapekan setelah seharian berada di hutan berbahaya tepat setelah kamu datang ke dunia ini secara tiba-tiba. Apapun itu, kamu tetap pada akhirnya butuh istirahat."
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+
 export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Harin = new Event ({
 	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
 	Occurence : "​​",
@@ -1194,11 +1397,11 @@ export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Harin = new Event ({
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : ""
+			answer : "​"
 		},
 		{
 			id : "B",
-			answer : "​"
+			answer : ""
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -1270,5 +1473,18 @@ export const event_name_conversion = {
 	"Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_Hingga_Terjatuh" : Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_Hingga_Terjatuh,
 	"Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun" : Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun,
 	"Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya" : Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya,
-	"Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu" : Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu
+	"Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu" : Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu,
+	"Kamu_Menemukan_Pondok_Kecil_Rute_Kuning" : Kamu_Menemukan_Pondok_Kecil_Rute_Kuning,
+	"Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning" : Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning,
+	"Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanmu" : Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanmu,
+	"Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning" : Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning,
+	"Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi" : Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi,
+	"Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu" : Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu,
+	"Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari" : Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari,
+	"Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung" : Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung,
+	"Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain" : Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain,
+
+
+
+	
 };
