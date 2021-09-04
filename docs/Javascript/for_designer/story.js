@@ -427,7 +427,7 @@ export const Kamu_Melihat_Sorot_Cahaya = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
+		{trigger : "A", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Biru"},
 		{trigger : "B", next_event_name : ""},
 		{trigger : "C", next_event_name : ""},
 		{trigger : "D", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Ijo"}
