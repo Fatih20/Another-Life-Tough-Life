@@ -777,8 +777,8 @@ export const Kamu_Menemukan_Pondok_Kecil_Rute_Biru = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru"},
+		{trigger : "B", next_event_name : "Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru"}
 	],
 	Lazy_Mode : true
 });
@@ -798,8 +798,8 @@ export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru"},
+		{trigger : "B", next_event_name : "Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo"}
 	],
 	Lazy_Mode : true
 });
@@ -819,8 +819,8 @@ export const Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Berhasil_Menyerang_Pria_Itu_Dan_Mulai_Merasa_Ragu"},
+		{trigger : "B", next_event_name : "Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun"}
 	],
 	Lazy_Mode : true
 });
@@ -854,8 +854,8 @@ export const Kamu_Berhasil_Menyerang_Pria_Itu_Dan_Mulai_Merasa_Ragu = new Event 
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu"},
+		{trigger : "B", next_event_name : "Kamu_Mati_Terbunuh_Oleh_Pria_Itu_Karena_Ragu_Soal_Pilihanmu"}
 	],
 	Lazy_Mode : true
 });
@@ -889,8 +889,8 @@ export const Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Mati_Kelaparan_Karena_Tidak_Bisa_Bertahan_Hidup_Di_Tengah_Hutan"},
+		{trigger : "B", next_event_name : "Kamu_Mati_Dibunuh_Hewan_Buas_Di_Dalam_Rumah"}
 	],
 	Lazy_Mode : true
 });
@@ -938,8 +938,8 @@ export const Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Bi
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada"},
+		{trigger : "B", next_event_name : "Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_Bahasa_Isyarat"}
 	],
 	Lazy_Mode : true
 });
@@ -955,7 +955,7 @@ export const Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_B
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Dibunuh_Tanpa_Ampun_Karena_Kamu_Menakutinya_Setelah_Mendobrak_Pintu"}
 	],
 	Lazy_Mode : true
 });
@@ -989,8 +989,8 @@ export const Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Serangan_Mendadakmu_Meleset_Dan_Kamu_Bertarung"},
+		{trigger : "B", next_event_name : "Persembunyianmu_Berhasil_Diketahui_Dan_Kamu_Langsung_Dihabisi_Seketika"}
 	],
 	Lazy_Mode : true
 });
@@ -1032,10 +1032,10 @@ export const Serangan_Mendadakmu_Meleset_Dan_Kamu_Bertarung = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""},
-		{trigger : "C", next_event_name : ""},
-		{trigger : "D", next_event_name : ""}
+		{trigger : "A", next_event_name : "Serangan_Membabi_Buta_Gagal_Dan_Kamu_Tewas_Karena_Cedera_Otak_Parah"},
+		{trigger : "B", next_event_name : "Seranganmu_Berhasil_Ditangkis_Dan_Kamu_Berhasil_Dihabisi"},
+		{trigger : "C", next_event_name : "Kamu_Melempar_Barang_Ke_Arah_Pria_Itu_Dan_Kamu_Mulai_Bertarung"},
+		{trigger : "D", next_event_name : "Ampunanmu_Tidak_Digubris_Dan_Kamu_Langsung_Dihabisi_Karena_Mencurigakan"}
 	],
 	Lazy_Mode : true
 });
@@ -1097,8 +1097,8 @@ export const Kamu_Melempar_Barang_Ke_Arah_Pria_Itu_Dan_Kamu_Mulai_Bertarung = ne
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_Hingga_Terjatuh"},
+		{trigger : "B", next_event_name : "Lemparan_Belatimu_Ditangkis_Dengan_Mudahnya_Dan_Kamu_Dihabisi_Setelahnya"}
 	],
 	Lazy_Mode : true
 });
@@ -1132,8 +1132,8 @@ export const Kedua_Belati_Terlempar_Dan_Kamu_Berhasil_Menendang_Perut_Pria_Itu_H
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya"},
+		{trigger : "B", next_event_name : "Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun"}
 	],
 	Lazy_Mode : true
 });
@@ -1167,8 +1167,8 @@ export const Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Mengha
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu"},
+		{trigger : "B", next_event_name : "Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu"}
 	],
 	Lazy_Mode : true
 });
