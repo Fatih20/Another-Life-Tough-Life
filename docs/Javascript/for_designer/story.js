@@ -231,10 +231,14 @@ export const Kamu_Selamat_Dan_Terus_Berjalan = new Event ({
 	Answers_For_Next_Event_List : [
 		{trigger : "A", next_event_name : "Kamu_Melihat_Sorot_Cahaya"}
 	],
-	Lazy_Mode : true
-	/* Ending : {
-		"A" : 
-	} */
+	Ending : {
+		"A" : [
+			{
+			type: "default_ending",
+			story_bit : "Kamu selamat dari hewan buas itu karena larimu lebih cepat darinya. Kamu bersembunyi di balik sebuah pohon dan kehabisan napas. Karena ketakutan, meski lelah dan lapar, kamu memutuskan untuk tetap melanjutkan berjalan karena tidak tahu apa yang menanti di tempat seperti ini.",
+			}
+		]
+	}
 });
 
 export const Memburu_Hewan_Asing_Yang_Ditemui = new Event ({
@@ -348,7 +352,7 @@ export const Mati_Dikeroyok = new Event ({
 			{
 			type: "specific_event_checker",
 			specification : {
-				event_before : "Semua_Bagian_Bangkai_Belum_Selesai_Dipotong​"
+				event_before : "Semua_Bagian_Bangkai_Belum_Selesai_Dipotong"
 			},
 			story_bit : "Cuaca saat itu sedang gerimis. Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah Lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
 			},
@@ -428,7 +432,7 @@ export const Kamu_Melihat_Sorot_Cahaya = new Event ({
 	],
 	Answers_For_Next_Event_List : [
 		{trigger : "A", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Biru"},
-		{trigger : "B", next_event_name : ""},
+		{trigger : "B", next_event_name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari"},
 		{trigger : "C", next_event_name : ""},
 		{trigger : "D", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Ijo"}
 	],
@@ -1426,7 +1430,7 @@ export const event_name_conversion = {
 	"Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas" : Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas,
 	"Kamu_Berteriak_Keras_Lalu_Mulai_Berlari" : Kamu_Berteriak_Keras_Lalu_Mulai_Berlari,
 	"Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu" : Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu,
-	"Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari​" : Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari,
+	"Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari" : Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari,
 	"Kamu_Selamat_Dan_Terus_Berjalan" : Kamu_Selamat_Dan_Terus_Berjalan,
 	"Memburu_Hewan_Asing_Yang_Ditemui" : Memburu_Hewan_Asing_Yang_Ditemui,
 	"Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan" : Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan,
