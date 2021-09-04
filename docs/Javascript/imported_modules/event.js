@@ -35,18 +35,25 @@ export class Event {
     visible_choice_generator(path_taken){
         let choice_shown = [];
         for (const possible_answer of this.Possible_Answer_List) {
-            if (possible_answer.conditions === undefined || this.condition_type_conversion_choice[possible_answer.conditions.type](path_taken, possible_answer.conditions)){
+            if (possible_answer.condition_list === undefined){
                 choice_shown.push(possible_answer);
+            } else {
+                for (const condition of possible_answer.condition_list){
+                    if (this.condition_type_conversion_choice[condition.type](path_taken, condition)){
+                        choice_shown.push(possible_answer);
+                        break;
+                    }
+                }
             }
         }
         return choice_shown;
     };
 
-    specific_event_checker_choice (previously_examined_path_list, conditions) {
+    specific_event_checker_choice (previously_examined_path_list, condition) {
         for (const previous_path of previously_examined_path_list) {
-            if (previous_path.nth_event === conditions.specification.nth_event || conditions.specification.nth_event === undefined ) {
-                if (previous_path.name_of_event === conditions.specification.event_name || conditions.specification.event_name === undefined ) {
-                    if (previous_path.choice_made === conditions.specification.choice || conditions.specification.choice === undefined ) {
+            if (previous_path.nth_event === condition.specification.nth_event || condition.specification.nth_event === undefined ) {
+                if (previous_path.name_of_event === condition.specification.event_name || condition.specification.event_name === undefined ) {
+                    if (previous_path.choice_made === condition.specification.choice || condition.specification.choice === undefined ) {
                         return true;
                     }
                 }    
