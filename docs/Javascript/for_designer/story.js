@@ -388,20 +388,12 @@ export const Kamu_Mulai_Menguliti_Hewan_Buas_Itu = new Event ({
 
 export const Kamu_Melihat_Sorot_Cahaya = new Event ({
 	Name : "Kamu_Melihat_Sorot_Cahaya",
-	Occurence : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon.​",
+	Occurence : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​<br>Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Kamu memutuskan untuk mendekatinya untuk memeriksa.​",
-			condition_list : [
-				{
-					type: "specific_event_checker", 
-					specification : {
-						event_name : "Kamu_Berhasil_Membunuh_Hewan_Buas_Itu",
-						choice : "C"}
-				}
-			]
+			answer : "Kamu memutuskan untuk mendekatinya untuk memeriksa.​"
 		},
 		{
 			id : "B",
@@ -436,7 +428,39 @@ export const Kamu_Melihat_Sorot_Cahaya = new Event ({
 		{trigger : "C", next_event_name : ""},
 		{trigger : "D", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Ijo"}
 	],
-	Lazy_Mode : true
+	Ending : {
+		"A" : [
+			{
+			type: "default_ending",
+			story_bit : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​<br>Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon.​ Kamu memutuskan untuk mendekatinya untuk memeriksa.​",
+			}
+		],
+		"B" : [
+			{
+			type: "specific_event_checker",
+			specification : {
+				event_before : "Kamu_Berhasil_Membunuh_Hewan_Buas_Itu"
+			},
+			story_bit : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​<br>Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon. Kamu tetap waspada dan tidak mendekatinya. Karena hari sudah mulai malam dan kamu kelelahan, kamu memutuskan untuk tidur.​​​",
+			},
+			{
+			type: "default_ending",
+			story_bit : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​<br>Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon. Kamu tetap waspada dan tidak mendekatinya. Karena hari sudah mulai malam dan kamu kelelahan, kamu memutuskan untuk tidur.​​​",
+			}
+		],
+		"C" : [
+			{
+			type: "default_ending",
+			story_bit : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​<br>Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon.​ Kamu memutuskan untuk mendekatinya untuk memeriksa.​",
+			}
+		],
+		"D" : [
+			{
+			type: "default_ending",
+			story_bit : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​<br>Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon.​ Kamu memutuskan untuk mendekatinya untuk memeriksa.",
+			}
+		]
+	}
 });
 
 export const Bangkai_Sudah_Jadi_Potongan_Kecil_Semua = new Event ({
