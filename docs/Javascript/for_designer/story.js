@@ -1202,8 +1202,8 @@ export const Kamu_Menemukan_Pondok_Kecil_Rute_Kuning = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning"},
+		{trigger : "B", next_event_name : "Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru"}
 	],
 	Lazy_Mode : true
 });
@@ -1223,8 +1223,8 @@ export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo"},
+		{trigger : "B", next_event_name : "Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanmu"}
 	],
 	Lazy_Mode : true
 });
@@ -1244,8 +1244,8 @@ export const Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanm
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi"},
+		{trigger : "B", next_event_name : "Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning"}
 	],
 	Lazy_Mode : true
 });
@@ -1265,8 +1265,8 @@ export const Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi"},
+		{trigger : "B", next_event_name : "Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun"}
 	],
 	Lazy_Mode : true
 });
@@ -1286,8 +1286,8 @@ export const Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi =
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu"},
+		{trigger : "B", next_event_name : "Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu"}
 	],
 	Lazy_Mode : true
 });
@@ -1327,8 +1327,10 @@ export const Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung"},
+		{trigger : "B", next_event_name : "Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari"},
+		{trigger : "C", next_event_name : "Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung"}
+		
 	],
 	Lazy_Mode : true
 });
@@ -1362,8 +1364,8 @@ export const Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung = new Eve
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain"},
+		{trigger : "B", next_event_name : "Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain"}
 	],
 	Lazy_Mode : true
 });
