@@ -506,8 +506,8 @@ export const Kamu_Menemukan_Pondok_Kecil_Rute_Ijo = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo"},
+		{trigger : "B", next_event_name : "Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Ijo"}
 	],
 	Lazy_Mode : true
 });
@@ -527,8 +527,8 @@ export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo"},
+		{trigger : "B", next_event_name : "Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo"}
 	],
 	Lazy_Mode : true
 });
@@ -568,8 +568,9 @@ export const Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo 
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Ketakutan_Pria_Semakin_Parah_Dan_Kamu_Langsung_Ditusuk"},
+		{trigger : "B", next_event_name : "Ketakutan_Pria_Semakin_Parah_Dan_Kamu_Langsung_Ditusuk"},
+		{trigger : "C", next_event_name : "Kamu_Dikejar_Pria_Yang_Tadi"}
 	],
 	Lazy_Mode : true
 });
@@ -603,8 +604,8 @@ export const Kamu_Dikejar_Pria_Yang_Tadi = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Tersandung_Dan_Dibunuh_Pria_Itu"},
+		{trigger : "B", next_event_name : "Pria_Itu_Terjatuh_Setelah_Kamu_Lempar_Dan_Kamu_Berhasil_Kabur"}
 	],
 	Lazy_Mode : true
 });
@@ -638,8 +639,8 @@ export const Pria_Itu_Terjatuh_Setelah_Kamu_Lempar_Dan_Kamu_Berhasil_Kabur = new
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Tertidur_Di_Hutan_Dan_Pasrah_Saat_Dimangsa_Hewan_Buas"},
+		{trigger : "B", next_event_name : "Kamu_Terlalu_Kelelahan_Dan_Pada_Akhirnya_Tetap_Dimangsa_Hewan_Buas"}
 	],
 	Lazy_Mode : true
 });
@@ -712,9 +713,9 @@ export const Ternyata_Ada_Seseorang_Pria_Di_Dalam_Sambil_Membawa_Belati = new Ev
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""},
-		{trigger : "C", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan"},
+		{trigger : "B", next_event_name : "Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu"},
+		{trigger : "C", next_event_name : "Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau"}
 	],
 	Lazy_Mode : true
 });
@@ -816,5 +817,5 @@ export const event_name_conversion = {
 	"Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan" : Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan,
 	"Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu" : Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu,
 	"Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau" : Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau
-	
+
 };
