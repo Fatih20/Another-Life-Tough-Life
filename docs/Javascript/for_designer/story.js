@@ -121,8 +121,8 @@ export const Kamu_Memerhatikan_Lingkungan_Sekitar_Dan_Melihat_Hewan = new Event 
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : "Memburu_Hewan_Asing_Yang_Ditemui​"},
-		{trigger : "B", next_event_name : "Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas​"}
+		{trigger : "A", next_event_name : "Memburu_Hewan_Asing_Yang_Ditemui"},
+		{trigger : "B", next_event_name : "Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas"}
 	],
 	Lazy_Mode : true
 });
@@ -143,40 +143,24 @@ export const Kamu_Memerhatikan_Lingkungan_Sekitar = new Event ({
 	],
 	Answers_For_Next_Event_List : [
 		{trigger : "A", next_event_name : "Kamu_Memerhatikan_Lingkungan_Sekitar_Dan_Melihat_Hewan"},
-		{trigger : "B", next_event_name : "End"}
-	],
-	Ending : {
-		"A" : [
-				{
-				type: "default_ending",
-				story_bit : "Kamu mulai memerhatikan lingkungan sekitar. Kamu sedang berada di sebuah hutan, sendirian. Hari sedang mendung berat dan semuanya tampak cukup gelap. Kamu akhirnya memutuskan untuk berdiri dan berjalan mengamati sekitar."
-				}
-		],
-		"B" : [
-				{
-				type: "default_ending",
-				story_bit : "Kamu mulai memerhatikan lingkungan sekitar. Kamu sedang berada di sebuah hutan, sendirian. Hari sedang mendung berat dan semuanya tampak cukup gelap. Kamu akhirnya memutuskan untuk berdiri dan berjalan mengamati sekitar."
-				}
-	]
-	}
-});
-
-export const Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas​ = new Event ({
-	Name : "Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas​",
-	Occurence : "Setelah beberapa lama berjalan dan waspada, ternyata kamu tetap kembali menemukan hewan seperti yang kamu lihat tadi. Kamu sebenarnya ingin mengabaikannya, Namun wajah hewan itu terlihat mengerikan dan membuatmu tidak tenang.",
-	Question : "",
-	Possible_Answer_List : [
-		{
-			id : "A",
-			answer : "Kamu memutuskan untuk mendekati hewan itu.​"
-		}
-	],
-	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : "Memburu_Hewan_Asing_Yang_Ditemui​"}
+		{trigger : "B", next_event_name : "Kamu_Diterkam_Tiba_Tiba_Dan_Mati"}
 	],
 	Lazy_Mode : true
 });
 
+export const Kamu_Diterkam_Tiba_Tiba_Dan_Mati = new Event ({
+	Name : "Kamu_Diterkam_Tiba_Tiba_Dan_Mati​",
+	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget setelah melihat hewan asing yang besar sedang mengejar mu dari kejauhan. Kamu sudah mencoba menjauh, namun sudah terlambat karena kurangnya persiapan. Kamu mati terbunuh oleh hewan itu.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
 
 export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 	Name : "Kamu_Berteriak_Keras_Lalu_Mulai_Berlari",
@@ -193,8 +177,8 @@ export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu"},
+		{trigger : "B", next_event_name : "Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu"}
 	],
 	Lazy_Mode : true
 });
@@ -214,13 +198,46 @@ export const Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Selamat_Dan_Terus_Berjalan​"},
+		{trigger : "B", next_event_name : "Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari"}
 	],
 	Lazy_Mode : true
 });
 
-export const Memburu_Hewan_Asing_Yang_Ditemui​ = new Event ({
+export const Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari = new Event ({
+	Name : "Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari​",
+	Occurence : "Kamu semakin Lelah dan hewan buas itu bisa mengejarmu dengan cepat dalam garis lurus. Kamu mati oleh serangan hewan buas itu.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Selamat_Dan_Terus_Berjalan = new Event ({
+	Name : "Kamu_Selamat_Dan_Terus_Berjalan​",
+	Occurence : "Kamu selamat dari hewan buas itu karena larimu lebih cepat darinya. Kamu bersembunyi di balik sebuah pohon dan kehabisan napas.",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Karena ketakutan, kamu memutuskan untuk tetap melanjutkan berjalan karena tidak tahu apa yang menanti di tempat seperti ini.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""}
+	],
+	Lazy_Mode : true
+	/* Ending : {
+		"A" : 
+	} */
+});
+
+export const Memburu_Hewan_Asing_Yang_Ditemui = new Event ({
 	Name : "Memburu_Hewan_Asing_Yang_Ditemui​",
 	Occurence : "Hewan itu berpenampakan seperti seekor serigala. Ketika mendekatinya, hewan itu menyadari keberadaanmu dan langsung berancang-ancang untuk menerkammu.​",
 	Question : "",
@@ -235,14 +252,44 @@ export const Memburu_Hewan_Asing_Yang_Ditemui​ = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan"},
+		{trigger : "B", next_event_name : "Kamu_Berhasil_Membunuh_Hewan_Buas_Itu"}
 	],
 	Lazy_Mode : true
 });
 
-export const Kamu_Berhasil_Membunuh_Hewan_Buas_Itu​ = new Event ({
-	Name : "Kamu_Berhasil_Membunuh_Hewan_Buas_Itu​",
+export const Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas = new Event ({
+	Name : "Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas​",
+	Occurence : "Setelah beberapa lama berjalan dan waspada, ternyata kamu tetap kembali menemukan hewan seperti yang kamu lihat tadi. Kamu sebenarnya ingin mengabaikannya, Namun wajah hewan itu terlihat mengerikan dan membuatmu tidak tenang.",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu memutuskan untuk mendekati hewan itu.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : "Memburu_Hewan_Asing_Yang_Ditemui"}
+	],
+	Lazy_Mode : true
+});
+
+export const Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan = new Event ({
+	Name : "Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan",
+	Occurence : "Hewan itu ternyata berhasil menggigit belatimu dan membuangnya dari tanganmu. Kamu panik dan bersegera mengambil ancang ancang untuk pergi, namun sudah terlambat. Kamu sudah tidak bisa melakukan apa-apa lagi setelah hewan itu mulai mencabik-cabik anggota tubuhmu.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Berhasil_Membunuh_Hewan_Buas_Itu = new Event ({
+	Name : "Kamu_Berhasil_Membunuh_Hewan_Buas_Itu",
 	Occurence : "Kamu terus mengelak terkaman hewan itu, dan akhirnya menemukan sebuah celah untuk menyerang. Kamu menusukkan belatimu ke badan hewan itu dan mencabiknya. Hewan itu berhasil kamu bunuh.​",
 	Question : "",
 	Possible_Answer_List : [
@@ -264,16 +311,58 @@ export const Kamu_Berhasil_Membunuh_Hewan_Buas_Itu​ = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""},
-		{trigger : "C", next_event_name : ""},
-		{trigger : "D", next_event_name : ""}
+		{trigger : "A", next_event_name : "Kamu_Mulai_Menguliti_Hewan_Buas_Itu"},
+		{trigger : "B", next_event_name : "Mati_Keracunan"},
+		{trigger : "C", next_event_name : "Kamu_Melihat_Sorot_Cahaya"},
+		{trigger : "D", next_event_name : "Mati_Dikeroyok"}
 	],
 	Lazy_Mode : true
 });
 
-export const Kamu_Mulai_Menguliti_Hewan_Buas_Itu​ = new Event ({
-	Name : "Kamu_Mulai_Menguliti_Hewan_Buas_Itu​",
+export const Mati_Keracunan = new Event ({
+	Name : "Mati_Keracunan",
+	Occurence : "Awalnya tak terasa terlalu buruk, dan kamu terus memakannya untuk menghilangkan lapar. Namun, beberapa menit kemudian kamu merasa mual luar biasa dan mulai muntah-muntah. Tak lama kemudian kamu mati keracunan dari daging mentah hewan itu.​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Mati_Dikeroyok = new Event ({
+	Name : "Mati_Dikeroyok",
+	Occurence : "Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah Lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Ending : {
+		"A" : [
+			{
+			type: "specific_event_checker",
+			specification : {
+				event_before : "Semua_Bagian_Bangkai_Belum_Selesai_Dipotong​"
+			},
+			story_bit : "Cuaca saat itu sedang gerimis. Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah Lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
+			},
+			{
+			type: "default_ending",
+			story_bit : "Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah Lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
+			}
+		]
+	},
+	End_Game_Event : true
+});
+
+export const Kamu_Mulai_Menguliti_Hewan_Buas_Itu = new Event ({
+	Name : "Kamu_Mulai_Menguliti_Hewan_Buas_Itu",
 	Occurence : "Kamu menguliti dan hendak memotong-motong bangkai hewan itu dengan pisaumu, bersiap membakarnya dengan peralatan seadanya.​",
 	Question : "",
 	Possible_Answer_List : [
@@ -287,14 +376,14 @@ export const Kamu_Mulai_Menguliti_Hewan_Buas_Itu​ = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Bangkai_Sudah_Jadi_Potongan_Kecil_Semua"},
+		{trigger : "B", next_event_name : "Semua_Bagian_Bangkai_Belum_Selesai_Dipotong"}
 	],
 	Lazy_Mode : true
 });
 
-export const Kamu_Melihat_Sorot_Cahaya​ = new Event ({
-	Name : "Kamu_Melihat_Sorot_Cahaya​",
+export const Kamu_Melihat_Sorot_Cahaya = new Event ({
+	Name : "Kamu_Melihat_Sorot_Cahaya",
 	Occurence : "Kamu terus berjalan dan semakin kelelahan. Hari juga semakin petang. Tapi tidak ada pilihan lain, terdapat hewan buas di hutan seperti ini dan mau tak mau kamu harus tetap berjalan dan siaga setiap saat. Bila menemukan keberadaan hewan buas, kamu langsung menjauhinya.<br>​Setelah beberapa lama berjalan, kamu akhirnya melihat sorot cahaya dari kejauhan di balik pohon-pohon.​",
 	Question : "",
 	Possible_Answer_List : [
@@ -308,11 +397,65 @@ export const Kamu_Melihat_Sorot_Cahaya​ = new Event ({
 		},
 		{
 			id : "C",
-			answer : "Kamu memutuskan untuk mendekatinya untuk memeriksa.​"
+			answer : "Kamu memutuskan untuk mendekatinya untuk memeriksa.​",
+			conditions : {
+				type: "specific_event_checker", 
+				specification : {
+					event_name : "Bangkai_Sudah_Jadi_Potongan_Kecil_Semua"}
+				}
 		},
 		{
 			id : "D",
-			answer : "Kamu memutuskan untuk mendekatinya untuk memeriksa.​​​"
+			answer : "Kamu memutuskan untuk mendekatinya untuk memeriksa.​​​",
+			conditions : {
+				type: "specific_event_checker", 
+				specification : {
+					event_name : "Kamu_Selamat_Dan_Terus_Berjalan"}
+				}
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : ""},
+		{trigger : "B", next_event_name : ""},
+		{trigger : "C", next_event_name : ""},
+		{trigger : "D", next_event_name : ""}
+	],
+	Lazy_Mode : true
+});
+
+export const Bangkai_Sudah_Jadi_Potongan_Kecil_Semua = new Event ({
+	Name : "Bangkai_Sudah_Jadi_Potongan_Kecil_Semua",
+	Occurence : "Tapi, ternyata gerimis mulai turun.  Tentu saja kamu tidak jadi membakarnya. Karena kamu mengulitinya dengan terburu-buru, bangkainya sudah terbagi menjadi potongan kecil.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu memutuskan untuk membawa beberapa potongan kecil untuk berjaga-jaga nanti.​"
+		},
+		{
+			id : "B",
+			answer : "Kamu memutuskan untuk meninggalkan semuanya karena merasa kesal setelah hujan turun.​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : "Kamu_Melihat_Sorot_Cahaya"},
+		{trigger : "B", next_event_name : "Kamu_Melihat_Sorot_Cahaya"}
+	],
+	Lazy_Mode : true
+});
+
+export const Semua_Bagian_Bangkai_Belum_Selesai_Dipotong = new Event ({
+	Name : "Semua_Bagian_Bangkai_Belum_Selesai_Dipotong",
+	Occurence : "Tapi, ternyata gerimis mulai turun.  Tentu saja kamu tidak jadi membakarnya. Kamu belum selesai memotong semua bagian hewan. ​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu memutuskan untuk membawa beberapa potong kecil daging kecil di dalam saku bajumu untuk jaga-jaga. ​"
+		},
+		{
+			id : "B",
+			answer : "Kamu memutuskan untuk membawa potongan yang lebih besar untuk dibawa. Cukup berat, untuk jaga-jaga bila kelaparan nanti.​"
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -322,9 +465,23 @@ export const Kamu_Melihat_Sorot_Cahaya​ = new Event ({
 	Lazy_Mode : true
 });
 
-export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
-	Name : "Kamu_Berteriak_Keras_Lalu_Mulai_Berlari",
-	Occurence : "",
+export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari = new Event ({
+	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
+	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget dan sudah kenal bahwa itu adalah auman hewan buas yang tadi. Namun hari sudah malam dan gelap, kamu susah melihat dalam kegelapan. Hewan itu dalam sekejap sudah menerkam mu dihadapanmu. Kamu mati terbunuh oleh hewan itu.​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : ""
+		}
+	],
+	Lazy_Mode : true,
+	End_Game_Event : true
+});
+
+export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Harin = new Event ({
+	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
+	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget dan sudah kenal bahwa itu adalah auman hewan buas yang tadi. Namun hari sudah malam dan gelap, kamu susah melihat dalam kegelapan. Hewan itu dalam sekejap sudah menerkam mu dihadapanmu. Kamu mati terbunuh oleh hewan itu.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -345,7 +502,27 @@ export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 
 export const event_name_conversion = {
     "Start" : Start,
-    "Kamu_Dipindahkan_Ke_Dunia_Lain_Secara_Tiba_Tiba" : Kamu_Dipindahkan_Ke_Dunia_Lain_Secara_Tiba_Tiba,
-    "Restaurant" : Restaurant,
-    "Cinema" : Cinema,
+    "Kamu_Panik_Setelah_Reinkarnasi_Di_Dunia_Lain" : Kamu_Panik_Setelah_Reinkarnasi_Di_Dunia_Lain,
+	"Kamu_Dipindahkan_Ke_Dunia_Lain_Secara_Tiba_Tiba" : Kamu_Dipindahkan_Ke_Dunia_Lain_Secara_Tiba_Tiba,
+    "Kamu_Langsung_Bergerak_Dan_Sigap" : Kamu_Langsung_Bergerak_Dan_Sigap,
+    "Kamu_Memerhatikan_Lingkungan_Sekitar_Dengan_Ketakutan" : Kamu_Memerhatikan_Lingkungan_Sekitar_Dengan_Ketakutan,
+	"Kamu_Memerhatikan_Lingkungan_Sekitar_Dan_Melihat_Hewan" : Kamu_Memerhatikan_Lingkungan_Sekitar_Dan_Melihat_Hewan,
+	"Kamu_Memerhatikan_Lingkungan_Sekitar" : Kamu_Memerhatikan_Lingkungan_Sekitar,
+	"Kamu_Diterkam_Tiba_Tiba_Dan_Mati" : Kamu_Diterkam_Tiba_Tiba_Dan_Mati,
+	"Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas" : Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas,
+	"Kamu_Berteriak_Keras_Lalu_Mulai_Berlari" : Kamu_Berteriak_Keras_Lalu_Mulai_Berlari,
+	"Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu" : Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu,
+	"Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari​" : Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari,
+	"Kamu_Selamat_Dan_Terus_Berjalan" : Kamu_Selamat_Dan_Terus_Berjalan,
+	"Memburu_Hewan_Asing_Yang_Ditemui" : Memburu_Hewan_Asing_Yang_Ditemui,
+	"Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan" : Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan,
+	"Kamu_Berhasil_Membunuh_Hewan_Buas_Itu" : Kamu_Berhasil_Membunuh_Hewan_Buas_Itu,
+	"Mati_Keracunan" : Mati_Keracunan,
+	"Mati_Dikeroyok" : Mati_Dikeroyok,
+	"Kamu_Mulai_Menguliti_Hewan_Buas_Itu" : Kamu_Mulai_Menguliti_Hewan_Buas_Itu,
+	"Kamu_Melihat_Sorot_Cahaya" : Kamu_Melihat_Sorot_Cahaya,
+	"Bangkai_Sudah_Jadi_Potongan_Kecil_Semua" : Bangkai_Sudah_Jadi_Potongan_Kecil_Semua,
+	"Semua_Bagian_Bangkai_Belum_Selesai_Dipotong" : Semua_Bagian_Bangkai_Belum_Selesai_Dipotong,
+	"Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari" : Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari,
+
 };

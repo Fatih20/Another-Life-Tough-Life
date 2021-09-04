@@ -11,6 +11,8 @@ export function director (path_taken, signal) {
     for (let answer_for_next_event of current_event.Answers_For_Next_Event_List){
         if (signal === answer_for_next_event.trigger) {
             path_taken.push({nth_event : (parseInt(nth_current_event)+1).toString(), name_of_event : answer_for_next_event.next_event_name});
+            console.log(answer_for_next_event.next_event_name);z
+            console.log(event_file.event_name_conversion[answer_for_next_event.next_event_name]);
             if (event_file.event_name_conversion[answer_for_next_event.next_event_name].End_Game_Event){
                 path_taken[path_taken.length-1].choice_made = "A";
                 localStorage.setItem("path_taken", JSON.stringify(path_taken));
