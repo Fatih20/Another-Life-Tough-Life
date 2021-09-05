@@ -423,10 +423,10 @@ export const Kamu_Melihat_Sorot_Cahaya = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Biru"},
+		{trigger : "A", next_event_name : "Kamu_Menemukan_Rumah_Kecil_Rute_Biru"},
 		{trigger : "B", next_event_name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari"},
-		{trigger : "C", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Kuning"},
-		{trigger : "D", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Ijo"}
+		{trigger : "C", next_event_name : "Kamu_Menemukan_Rumah_Kecil_Rute_Kuning"},
+		{trigger : "D", next_event_name : "Kamu_Menemukan_Rumah_Kecil_Rute_Ijo"}
 	],
 	Ending : {
 		"A" : [
@@ -519,9 +519,9 @@ export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari = new Event ({
 	End_Game_Event : true
 });
 
-export const Kamu_Menemukan_Pondok_Kecil_Rute_Ijo = new Event ({
-	Name : "Kamu_Menemukan_Pondok_Kecil_Rute_Ijo",
-	Occurence : "Kejutan! Ternyata di balik cahaya itu adalah sebuah pondok kecil. Arsitekturnya mirip dengan pondok yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
+export const Kamu_Menemukan_Rumah_Kecil_Rute_Ijo = new Event ({
+	Name : "Kamu_Menemukan_Rumah_Kecil_Rute_Ijo",
+	Occurence : "Kejutan! Ternyata di balik cahaya itu adalah sebuah rumah kecil. Arsitekturnya mirip dengan rumah yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -542,7 +542,7 @@ export const Kamu_Menemukan_Pondok_Kecil_Rute_Ijo = new Event ({
 
 export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo = new Event ({
 	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo",
-	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Pondok ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
+	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -790,9 +790,9 @@ export const Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau = new
 	End_Game_Event : true
 });
 
-export const Kamu_Menemukan_Pondok_Kecil_Rute_Biru = new Event ({
-	Name : "Kamu_Menemukan_Pondok_Kecil_Rute_Biru",
-	Occurence : "ejutan! Ternyata di balik cahaya itu adalah sebuah pondok kecil. Arsitekturnya mirip dengan pondok yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
+export const Kamu_Menemukan_Rumah_Kecil_Rute_Biru = new Event ({
+	Name : "Kamu_Menemukan_Rumah_Kecil_Rute_Biru",
+	Occurence : "ejutan! Ternyata di balik cahaya itu adalah sebuah rumah kecil. Arsitekturnya mirip dengan rumah yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -813,7 +813,7 @@ export const Kamu_Menemukan_Pondok_Kecil_Rute_Biru = new Event ({
 
 export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru = new Event ({
 	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru",
-	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Pondok ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
+	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -953,7 +953,7 @@ export const Kamu_Mati_Kelaparan_Karena_Tidak_Bisa_Bertahan_Hidup_Di_Tengah_Huta
 
 export const Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru = new Event ({
 	Name : "Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Biru",
-	Occurence : "Setelah mendobrak, kamu langsung bersembunyi karena ada respon suara dari dalam. Sepertinya firasatmu benar, ada manusia di dalam pondok ini. ​​​",
+	Occurence : "Setelah mendobrak, kamu langsung bersembunyi karena ada respon suara dari dalam. Sepertinya firasatmu benar, ada manusia di dalam rumah ini. ​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -1215,9 +1215,9 @@ export const Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Kea
 	End_Game_Event : true
 });
 
-export const Kamu_Menemukan_Pondok_Kecil_Rute_Kuning = new Event ({
-	Name : "Kamu_Menemukan_Pondok_Kecil_Rute_Kuning",
-	Occurence : "Kejutan! Ternyata di balik cahaya itu adalah sebuah pondok kecil. Arsitekturnya mirip dengan pondok yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​​",
+export const Kamu_Menemukan_Rumah_Kecil_Rute_Kuning = new Event ({
+	Name : "Kamu_Menemukan_Rumah_Kecil_Rute_Kuning",
+	Occurence : "Kejutan! Ternyata di balik cahaya itu adalah sebuah rumah kecil. Arsitekturnya mirip dengan rumah yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -1238,7 +1238,7 @@ export const Kamu_Menemukan_Pondok_Kecil_Rute_Kuning = new Event ({
 
 export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning = new Event ({
 	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning",
-	Occurence : "​​Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Pondok ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​",
+	Occurence : "​​Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -1460,7 +1460,7 @@ export const event_name_conversion = {
 	"Bangkai_Sudah_Jadi_Potongan_Kecil_Semua" : Bangkai_Sudah_Jadi_Potongan_Kecil_Semua,
 	"Semua_Bagian_Bangkai_Belum_Selesai_Dipotong" : Semua_Bagian_Bangkai_Belum_Selesai_Dipotong,
 	"Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari" : Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari,
-	"Kamu_Menemukan_Pondok_Kecil_Rute_Ijo" : Kamu_Menemukan_Pondok_Kecil_Rute_Ijo,
+	"Kamu_Menemukan_Rumah_Kecil_Rute_Ijo" : Kamu_Menemukan_Rumah_Kecil_Rute_Ijo,
 	"Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo" : Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo,
 	"Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo" : Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo,
 	"Ketakutan_Pria_Semakin_Parah_Dan_Kamu_Langsung_Ditusuk" : Ketakutan_Pria_Semakin_Parah_Dan_Kamu_Langsung_Ditusuk,
@@ -1474,7 +1474,7 @@ export const event_name_conversion = {
 	"Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan" : Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan,
 	"Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu" : Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu,
 	"Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau" : Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau,
-	"Kamu_Menemukan_Pondok_Kecil_Rute_Biru" : Kamu_Menemukan_Pondok_Kecil_Rute_Biru,
+	"Kamu_Menemukan_Rumah_Kecil_Rute_Biru" : Kamu_Menemukan_Rumah_Kecil_Rute_Biru,
 	"Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru" : Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru,
 	"Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru" : Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru,
 	"Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun" : Kamu_Diserang_Secara_Langsung_Oleh_Pria_Itu_Tanpa_Ampun,
@@ -1498,7 +1498,7 @@ export const event_name_conversion = {
 	"Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun" : Kamu_Dilempari_Barang_Lalu_Dihajar_Dan_Dihabisi_Tanpa_Ampun,
 	"Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya" : Setelah_Menghajar_Pria_Itu_Kamu_Punya_Kesempatan_Besar_Untuk_Menghabisinya,
 	"Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu" : Kamu_Ragu_Atas_Dirimu_Sendiri_Dan_Pria_Itu_Langsung_Membalikkan_Keadaan_Lalu_Menghabisimu,
-	"Kamu_Menemukan_Pondok_Kecil_Rute_Kuning" : Kamu_Menemukan_Pondok_Kecil_Rute_Kuning,
+	"Kamu_Menemukan_Rumah_Kecil_Rute_Kuning" : Kamu_Menemukan_Rumah_Kecil_Rute_Kuning,
 	"Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning" : Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning,
 	"Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanmu" : Kamu_Mulai_Berpikir_Untuk_Menakuti_Pria_Di_Hadapanmu_Dengan_Buruanmu,
 	"Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning" : Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning,
