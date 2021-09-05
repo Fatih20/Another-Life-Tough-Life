@@ -54,14 +54,13 @@ function generate_end_story (path_taken) {
     let examined_path_list = [];
     let path_summation_list = [];
     let paragraph_type_ledger = [];
-    const period = 4;
     for (const path of path_taken) {
         const examined_event = event_file.event_name_conversion[path.name_of_event];
         let story_bit_and_paragraph_type;
         if (examined_path_list.length === path_taken.length-1){
-            story_bit_and_paragraph_type = examined_event.end_story_bit_generator(examined_path_list, path, paragraph_type_ledger, true, true, period);
+            story_bit_and_paragraph_type = examined_event.end_story_bit_generator(examined_path_list, path, paragraph_type_ledger, true, config.paragraph_periodicity.periodicity, config.paragraph_periodicity.period);
         } else {
-            story_bit_and_paragraph_type = examined_event.end_story_bit_generator(examined_path_list, path, paragraph_type_ledger, false, true, period);
+            story_bit_and_paragraph_type = examined_event.end_story_bit_generator(examined_path_list, path, paragraph_type_ledger, false, config.paragraph_periodicity.periodicity, config.paragraph_periodicity.period);
         }
 
         path_summation_list.push(story_bit_and_paragraph_type.story_bit);
