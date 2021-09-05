@@ -78,7 +78,6 @@ export class Event {
             } 
             index_of_compatible_condition += 1;
         }
-        end_game_story_bit = end_game_story_bit + " ";
 
         if (ignore_paragraph){
             return {story_bit : end_game_story_bit};
