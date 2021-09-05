@@ -1355,9 +1355,9 @@ export const Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : "Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung"},
+		{trigger : "A", next_event_name : "Pria_Itu_Menyuruhmu_Untuk_Beristirahat"},
 		{trigger : "B", next_event_name : "Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari"},
-		{trigger : "C", next_event_name : "Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung"}
+		{trigger : "C", next_event_name : "Pria_Itu_Menyuruhmu_Untuk_Beristirahat"}
 		
 	],
 	Lazy_Mode : true
@@ -1375,27 +1375,6 @@ export const Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan
 	],
 	Lazy_Mode : true,
 	End_Game_Event : true
-});
-
-export const Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung = new Event ({
-	Name : "Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung",
-	Occurence : "​​Pria itu mengantarmu ke dalam salah satu ruangan dalam rumah itu. Dari gestur tubuhnya, sepertinya dia mempersilakanmu untuk beristirahat. Dia juga meminta potongan-potongan daging hewan buas yang kamu bunuh tadi, dan kamu semakin kebingungan dan heran soal ini.​",
-	Question : "",
-	Possible_Answer_List : [
-		{
-			id : "A",
-			answer : "​Kamu memutuskan untuk memberikannya tanpa bertanya, kamu justru sekarang menjadi kebingungan kenapa pria itu malah tidak takut denganmu yang datang dengan membawa ini. ​"
-		},
-		{
-			id : "B",
-			answer : "Kamu memutuskan untuk tidak memberikannya. Kamu lebih memilihi untuk tidak melakukan hal yang mungkin bisa mendatangkan risiko ke depannya. Lagipula, kamu awalnya mau masuk ke rumah ini karena hari sudah malam dan kamu butuh tempat untuk bernaung.​"
-		}
-	],
-	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : "Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain"},
-		{trigger : "B", next_event_name : "Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain"}
-	],
-	Lazy_Mode : true
 });
 
 export const Pria_Itu_Menyuruhmu_Untuk_Beristirahat = new Event ({
@@ -1526,7 +1505,6 @@ export const event_name_conversion = {
 	"Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi" : Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi,
 	"Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu" : Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu,
 	"Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari" : Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari,
-	"Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung" : Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung,
 	"Pria_Itu_Menyuruhmu_Untuk_Beristirahat" : Pria_Itu_Menyuruhmu_Untuk_Beristirahat,
 	"Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain" : Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain,
 	
