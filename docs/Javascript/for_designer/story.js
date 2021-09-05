@@ -425,7 +425,7 @@ export const Kamu_Melihat_Sorot_Cahaya = new Event ({
 	Answers_For_Next_Event_List : [
 		{trigger : "A", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Biru"},
 		{trigger : "B", next_event_name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari"},
-		{trigger : "C", next_event_name : ""},
+		{trigger : "C", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Kuning"},
 		{trigger : "D", next_event_name : "Kamu_Menemukan_Pondok_Kecil_Rute_Ijo"}
 	],
 	Ending : {
@@ -1398,6 +1398,22 @@ export const Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung = new Eve
 	Lazy_Mode : true
 });
 
+export const Pria_Itu_Menyuruhmu_Untuk_Beristirahat = new Event ({
+	Name : "Pria_Itu_Menyuruhmu_Untuk_Beristirahat",
+	Occurence : "Pria itu mengantarmu ke salah satu ruangan dalam rumah itu. Dari gestur tubuhnya, sepertinya dia mempersilakanmu untuk beristirahat. Dia membuka pintu dan dari pemahamanmu soal gestur tubuhnya—dia sedang menunjukkan berbagai barang dan perabotan yang ada di dalam kamar. Setelah selesai, pria itu kemudian menutup pintu dari luar, meninggalkanmu sendiri di dalam.​​​",
+	Question : "",
+	Possible_Answer_List : [
+		{
+			id : "A",
+			answer : "Kamu duduk dan merenung di atas tempat tidur​"
+		}
+	],
+	Answers_For_Next_Event_List : [
+		{trigger : "A", next_event_name : "Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain"}
+	],
+	Lazy_Mode : true
+});
+
 export const Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain = new Event ({
 	Name : "Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain",
 	Occurence : "​​Setelah kamu melangkah masuk ke dalam ruangan itu, pria itu kemudian menutup pintu dari luar. Sekarang kamu sendirian di dalma ruangan yang benar-benar asing ini, di dalam dunia lain yang benar-benar asing bagimu.​",
@@ -1418,7 +1434,6 @@ export const Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_P
 	],
 	Lazy_Mode : true
 });
-
 
 export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Harin = new Event ({
 	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
@@ -1512,9 +1527,7 @@ export const event_name_conversion = {
 	"Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu" : Kamu_Diajak_Ke_Dalam_Rumah_Pria_Itu,
 	"Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari" : Kamu_Kabur_Dari_Rumah_Itu_Karena_Waspada_Dan_Akhirnya_Mati_Di_Hutan_Saat_Malam_Hari,
 	"Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung" : Pria_Itu_Meminta_Daging_Buruanmu_Dan_Kamu_Semakin_Bingung,
+	"Pria_Itu_Menyuruhmu_Untuk_Beristirahat" : Pria_Itu_Menyuruhmu_Untuk_Beristirahat,
 	"Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain" : Kamu_Akhirnya_Sendirian_Di_Dalam_Kamar_Di_Dalam_Rumah_Asing_Milik_Pria_Di_Dunia_Lain,
-
-
-
 	
 };
