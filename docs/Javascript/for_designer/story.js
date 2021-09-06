@@ -150,7 +150,7 @@ export const Kamu_Memerhatikan_Lingkungan_Sekitar = new Event ({
 
 export const Kamu_Diterkam_Tiba_Tiba_Dan_Mati = new Event ({
 	Name : "Kamu_Diterkam_Tiba_Tiba_Dan_Mati​",
-	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget setelah melihat hewan asing yang besar sedang mengejar mu dari kejauhan. Kamu sudah mencoba menjauh, namun sudah terlambat karena kurangnya persiapan. Kamu mati terbunuh oleh hewan itu.​",
+	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget setelah melihat hewan asing yang besar sedang mengejarmu dari kejauhan. Kamu sudah mencoba menjauh, namun sudah terlambat karena kurangnya persiapan. Kamu mati terbunuh oleh hewan itu.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -164,7 +164,7 @@ export const Kamu_Diterkam_Tiba_Tiba_Dan_Mati = new Event ({
 
 export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 	Name : "Kamu_Berteriak_Keras_Lalu_Mulai_Berlari",
-	Occurence : "Secara refleks kamu berteriak keras, ketakutanmu sudah mencapai batasnya. Kamu tiba tiba saja masuk ke dunia lain yang benar-benar asing yang membuatmu panik. Kamu mulai berlarian tanpa arah sambil terus berteriak.",
+	Occurence : "Secara refleks kamu berteriak keras, ketakutanmu sudah mencapai batasnya. Kamu tiba-tiba saja masuk ke dunia lain yang benar-benar asing yang membuatmu panik. Kamu mulai berlarian tanpa arah sambil terus berteriak.",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -173,7 +173,7 @@ export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 		},
 		{
 			id : "B",
-			answer : "Kamu memilih untuk berlarian random (zig zag)."
+			answer : "Kamu memilih untuk berlarian random (zig-zag)."
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -194,7 +194,7 @@ export const Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu = new Event ({
 		},
 		{
 			id : "B",
-			answer : "Perasaanmu semakin tidak keruan. Kamu mempercepat larimu secara tidak beraturan atau zig zag."
+			answer : "Perasaanmu semakin tidak keruan. Kamu mempercepat larimu secara tidak beraturan atau zig-zag."
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -206,7 +206,7 @@ export const Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu = new Event ({
 
 export const Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari = new Event ({
 	Name : "Kamu_Tewas_Diterkam_Setelah_Kelelahan_Berlari​",
-	Occurence : "Kamu semakin Lelah dan hewan buas itu bisa mengejarmu dengan cepat dalam garis lurus. Kamu mati oleh serangan hewan buas itu.​",
+	Occurence : "Kamu semakin lelah dan hewan buas itu bisa mengejarmu dengan cepat dalam garis lurus. Kamu mati oleh serangan hewan buas itu.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -243,7 +243,7 @@ export const Kamu_Selamat_Dan_Terus_Berjalan = new Event ({
 
 export const Memburu_Hewan_Asing_Yang_Ditemui = new Event ({
 	Name : "Memburu_Hewan_Asing_Yang_Ditemui​",
-	Occurence : "Hewan itu berpenampakan seperti seekor serigala. Ketika mendekatinya, hewan itu menyadari keberadaanmu dan langsung berancang-ancang untuk menerkammu.​",
+	Occurence : "Hewan itu berpenampakan seperti seekor serigala. Ketika mendekatinya, hewan itu menyadari keberadaanmu dan langsung mengambil ancang-ancang untuk menerkammu.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -280,7 +280,7 @@ export const Kamu_Akhirnya_Memutuskan_Untuk_Menghadapi_Hewan_Buas = new Event ({
 
 export const Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan = new Event ({
 	Name : "Kamu_Diterkam_Oleh_Hewan_Karena_Gagal_Membunuhnya_Duluan",
-	Occurence : "Hewan itu ternyata berhasil menggigit belatimu dan membuangnya dari tanganmu. Kamu panik dan bersegera mengambil ancang ancang untuk pergi, namun sudah terlambat. Kamu sudah tidak bisa melakukan apa-apa lagi setelah hewan itu mulai mencabik-cabik anggota tubuhmu.​",
+	Occurence : "Hewan itu ternyata berhasil menggigit belatimu dan membuangnya dari tanganmu. Kamu panik dan bersegera untuk kabur, namun sudah terlambat. Kamu sudah tidak bisa melakukan apa-apa lagi setelah hewan itu mulai mencabik-cabik anggota tubuhmu.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -339,7 +339,7 @@ export const Mati_Keracunan = new Event ({
 
 export const Mati_Dikeroyok = new Event ({
 	Name : "Mati_Dikeroyok",
-	Occurence : "Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah Lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
+	Occurence : "Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -354,11 +354,11 @@ export const Mati_Dikeroyok = new Event ({
 			specification : {
 				event_before : "Semua_Bagian_Bangkai_Belum_Selesai_Dipotong"
 			},
-			story_bit : "Cuaca saat itu sedang gerimis. Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah Lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
+			story_bit : "Cuaca saat itu sedang gerimis. Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
 			},
 			{
 			type: "default_ending",
-			story_bit : "Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah Lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
+			story_bit : "Beban itu berat dan memperlambat langkahmu. Namun tak disangka, beberapa hewan buas lain sejenis sepertinya sedang mendekatimu—mungkin karena bau bangkainya. Kamu berusaha lari namun sudah lelah karena membawa beban yang berat. Kamu mati setelah dikeroyok kelompok hewan itu.​​​",
 			}
 		]
 	},
@@ -516,7 +516,7 @@ export const Semua_Bagian_Bangkai_Belum_Selesai_Dipotong = new Event ({
 
 export const Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari = new Event ({
 	Name : "Kamu_Disergap_Oleh_Hewan_Buas_Di_Malam_Hari",
-	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget dan sudah kenal bahwa itu adalah auman hewan buas yang tadi. Namun hari sudah malam dan gelap, kamu susah melihat dalam kegelapan. Hewan itu dalam sekejap sudah menerkam mu dihadapanmu. Kamu mati terbunuh oleh hewan itu.​",
+	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget dan sudah kenal bahwa itu adalah auman hewan buas yang tadi. Namun hari sudah malam dan gelap, kamu susah melihat dalam kegelapan. Hewan itu dalam sekejap sudah menerkammu. Kamu mati terbunuh oleh hewan itu.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -551,12 +551,12 @@ export const Kamu_Menemukan_Rumah_Kecil_Rute_Ijo = new Event ({
 
 export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo = new Event ({
 	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Ijo",
-	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
+	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Meskipun kamu tidak mengerti bahasanya, kamu memutuskan untuk menggunakan Bahasa isyarat tubuhmu sebisa mungkin untuk menjelaskan situasimu untuk menegaskan kamu tidak berniat jahat.​"
+			answer : "Meskipun kamu tidak mengerti bahasanya, kamu memutuskan untuk menggunakan bahasa isyarat tubuhmu sebisa mungkin untuk menjelaskan situasimu untuk menegaskan kamu tidak berniat jahat.​"
 		},
 		{
 			id : "B",
@@ -589,7 +589,7 @@ export const Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Ijo 
 		},
 		{
 			id : "B",
-			answer : "Kamu berusaha tetap tenang, mencoba sekali lagi menggunakan Bahasa isyarat untuk menjelaskan situasimu.​",
+			answer : "Kamu berusaha tetap tenang, mencoba sekali lagi menggunakan bahasa isyarat untuk menjelaskan situasimu.​",
 			condition_list : [
 				{
 					type: "specific_event_checker", 
@@ -628,7 +628,7 @@ export const Ketakutan_Pria_Semakin_Parah_Dan_Kamu_Langsung_Ditusuk = new Event 
 
 export const Kamu_Dikejar_Pria_Yang_Tadi = new Event ({
 	Name : "Kamu_Dikejar_Pria_Yang_Tadi",
-	Occurence : "Meskipun kamu sudah lari secepat yang kamu bisa, namun kamu masih mendengar derap kaki di belakangmu. Kamu juga merasa ada cahaya memancar dari belakangmu. Sepertinya orang tadi masih mengejarmu sambil membawa penerangan.​",
+	Occurence : "Meskipun kamu sudah lari secepat yang kamu bisa, namun kamu masih mendengar derap kaki di belakangmu. Kamu juga merasa ada cahaya memancar dari belakangmu. Sepertinya pria yang tadi masih mengejarmu sambil membawa penerangan.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -698,7 +698,7 @@ export const Kamu_Tertidur_Di_Hutan_Dan_Pasrah_Saat_Dimangsa_Hewan_Buas = new Ev
 
 export const Kamu_Terlalu_Kelelahan_Dan_Pada_Akhirnya_Tetap_Dimangsa_Hewan_Buas = new Event ({
 	Name : "Kamu_Terlalu_Kelelahan_Dan_Pada_Akhirnya_Tetap_Dimangsa_Hewan_Buas",
-	Occurence : "Kamu memilih berjaga, tetap tidak ada yang bisa kamu lakukan—kamu kelelahan sekali dari tadi. Kamu tidak bisa kabur walaupun hewan buas itu mengejarmu. Kamu juga mati dimangsa oleh hewan buas pada malam itu.​​",
+	Occurence : "Kamu memilih berjaga, tetap tidak ada yang bisa kamu lakukan—kamu kelelahan sekali dari tadi. Kamu tidak bisa kabur walaupun hewan buas itu mengejarmu. Kamu mati dimangsa oleh hewan buas pada malam itu.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -712,37 +712,32 @@ export const Kamu_Terlalu_Kelelahan_Dan_Pada_Akhirnya_Tetap_Dimangsa_Hewan_Buas 
 
 export const Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Ijo = new Event ({
 	Name : "Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Ijo",
-	Occurence : "Kamu terbangun dari tidurmu mendengar suara auman. Kamu kaget dan sudah kenal bahwa itu adalah auman hewan buas yang tadi. Namun hari sudah malam dan gelap, kamu susah melihat dalam kegelapan. Hewan itu dalam sekejap sudah menerkam mu dihadapanmu. Kamu mati terbunuh oleh hewan itu.​",
+	Occurence : "Setelah mendobrak, kamu terkejut karena ada respon suara seperti suara berat pria dari dalam. Sepertinya firasatmu benar, ada manusia di dalam pondok ini. Karena kamu sudah telanjur mendobrak, tidak ada jalan kembali lagi.",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : ""
-		},
-		{
-			id : "B",
-			answer : ""
+			answer : "Kamu langsung berjalan menuju sumber suara untuk memastikan.​"
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
-		{trigger : "B", next_event_name : ""}
+		{trigger : "A", next_event_name : "Ternyata_Ada_Seseorang_Pria_Di_Dalam_Sambil_Membawa_Belati"}
 	],
 	Lazy_Mode : true
 });
 
 export const Ternyata_Ada_Seseorang_Pria_Di_Dalam_Sambil_Membawa_Belati = new Event ({
 	Name : "Ternyata_Ada_Seseorang_Pria_Di_Dalam_Sambil_Membawa_Belati",
-	Occurence : "Ternyata benar. Kamu tiba-tiba bertemu dengan seorang pria paruh baya di sebuah koridor kecil. Suara barusan tadi sepertinya benar berasal darinya. Dia tampak terkejut dan ketakutan, kedua tangannya sudah menggenggam erat sebuah belati. Dia mulai mengoceh dalam Bahasa yang tidak kamu mengerti.​",
+	Occurence : "Ternyata benar. Kamu tiba-tiba bertemu dengan seorang pria paruh baya di sebuah koridor kecil. Suara barusan tadi sepertinya benar berasal darinya. Dia tampak terkejut dan ketakutan, kedua tangannya sudah menggenggam erat sebuah belati. Dia mulai mengoceh dalam bahasa yang tidak kamu mengerti.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Kamu memilih untuk menjelaskan situasinya sebisa mungkin dengan menggunakan Bahasa isyarat, berusaha menenangkan pria itu.​​"
+			answer : "Kamu memilih untuk menjelaskan situasinya sebisa mungkin dengan menggunakan bahasa isyarat, berusaha menenangkan pria itu.​​"
 		},
 		{
 			id : "B",
-			answer : "Kamu memilih untuk mulai memberikan perlawanan karena pria di hadapanmu itu sudah bersiap dengan belatinya. Kamu tidak ingin bila disergap dengan tiba tiba.​​​"
+			answer : "Kamu memilih untuk mulai memberikan perlawanan karena pria di hadapanmu itu sudah bersiap dengan belatinya. Kamu tidak ingin bila disergap dengan tiba-tiba.​​​"
 		},
 		{
 			id : "C",
@@ -759,7 +754,7 @@ export const Ternyata_Ada_Seseorang_Pria_Di_Dalam_Sambil_Membawa_Belati = new Ev
 
 export const Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan = new Event ({
 	Name : "Kamu_Terbunuh_Oleh_Pria_Itu_Karena_Tidak_Bisa_Bahasa_Isyarat_Dan_Karena_Mendobrak_Duluan",
-	Occurence : "Percuma. Pria itu justru semakin ketakutan dengan Bahasa isyaratmu yang setengah2. Lagipula kamu juga masuk ke dalam dengan mendobrak, jelas itu sudah membuat pria itu waspada dari awal. Dia tanpa ampun langsung menusukkan belatinya tepat di jantungmu.​",
+	Occurence : "Percuma. Pria itu justru semakin ketakutan dengan bahasa isyaratmu yang setengah-setengah. Lagipula kamu juga masuk ke dalam dengan mendobrak, jelas itu sudah membuat pria itu waspada dari awal. Dia tanpa ampun langsung menusukkan belatinya tepat di jantungmu.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -787,7 +782,7 @@ export const Kamu_Mencoba_Melawan_Tapi_Gagal_Dan_Terbunuh_Oleh_Pria_Itu = new Ev
 
 export const Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau = new Event ({
 	Name : "Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau",
-	Occurence : "Kamu sudah berlari, namun kamu masih berada di dalam rumah. Gerakan mu terbatas sebelum mencapai pintu keluar, dan kamu merasakan sesuatu menusuk punggungmu dari belakang. Sepertinya pria tadi melempar pisaunya dan menancap di punggungmu. Dia kemudian dengan mudah menahanmu dan membunuhmu seketika.​​",
+	Occurence : "Kamu sudah berlari, namun kamu masih berada di dalam rumah. Gerakanmu terbatas sebelum mencapai pintu keluar, dan kamu merasakan sesuatu menusuk punggungmu dari belakang. Sepertinya pria tadi melempar pisaunya dan menancap di punggungmu. Dia kemudian dengan mudah menahanmu dan membunuhmu seketika.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -822,7 +817,7 @@ export const Kamu_Menemukan_Rumah_Kecil_Rute_Biru = new Event ({
 
 export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru = new Event ({
 	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru",
-	Occurence : "Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
+	Occurence : "Beberapa saat kemudian, kamu mendengar suara langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapanmu. Dia juga tampak terkejut, mulai berbicara bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -831,7 +826,7 @@ export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru = new Event ({
 		},
 		{
 			id : "B",
-			answer : "Melihat wajahnya yang begitu ketakutan dan cemas, kamu mengurungkan niatmu untuk menakutinya dengan belati. Kamu mencoba menjelaskan situasimu dengan Bahasa isyarat sebisamu. ​"
+			answer : "Melihat wajahnya yang begitu ketakutan dan cemas, kamu mengurungkan niatmu untuk menakutinya dengan belati. Kamu mencoba menjelaskan situasimu dengan bahasa isyarat sebisamu. ​"
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -843,16 +838,16 @@ export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Biru = new Event ({
 
 export const Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru = new Event ({
 	Name : "Pria_Asing_Tiba_Tiba_Mengeluarkan_Belati_Dari_Pinggangnya_Rute_Biru",
-	Occurence : "Pria itu rupanya juga menyimpan sebilah belati dari balik punggungnya. Dia juga mengacungkannya di hadapanmu dengan wajah yang ketakutan.  ​",
+	Occurence : "Pria itu rupanya juga menyimpan sebilah belati dari balik punggungnya. Dia juga mengacungkannya di hadapanmu dengan wajah yang ketakutan.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Kamu tidak ragu sama sekali. Kamu langsung mengayunkan belatimu dengan cepat ke arah pria dihadapanmu. ​"
+			answer : "Kamu tidak ragu sama sekali. Kamu langsung mengayunkan belatimu dengan cepat ke arah pria di hadapanmu. ​"
 		},
 		{
 			id : "B",
-			answer : "amu masih berpikir tentang langkahmu selanjutnya. Kamu tidak ingin terburu-buru.​​"
+			answer : "Kamu masih berpikir tentang langkahmu selanjutnya. Kamu tidak ingin terburu-buru.​​"
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -913,7 +908,7 @@ export const Kamu_Mati_Terbunuh_Oleh_Pria_Itu_Karena_Ragu_Soal_Pilihanmu = new E
 
 export const Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu = new Event ({
 	Name : "Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu",
-	Occurence : "Kali ini, kamu benar-benar mengakhiri hidup pria di hadapanmu dengan sebuah tusukan belati tepat ke jantungnya. Kamu lalu mencabut belatinya, dan mulai menjauh dari tubuhnya yang mulai mengucurkan darah di lantai hingga berkubang. Kamu bernapas terengah-engah. Sekarang hanya tersisa dirimu dan sebuah tubuh pria di hadapanmu yang sekarang sudah menjadi bangkai.​​​",
+	Occurence : "Kali ini, kamu benar-benar mengakhiri hidup pria di hadapanmu dengan sebuah tusukan belati tepat ke jantungnya. Setelah itu kamu mencabut belatinya, dan mulai menjauh dari tubuhnya yang mulai mengucurkan darah di lantai hingga berkubang. Kamu bernapas terengah-engah. Sekarang hanya tersisa dirimu dan sebuah tubuh pria di hadapanmu yang sekarang sudah menjadi bangkai.​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -934,7 +929,7 @@ export const Kamu_Akhirnya_Berhasil_Membunuh_Pria_Di_Hadapanmu = new Event ({
 
 export const Kamu_Mati_Dibunuh_Hewan_Buas_Di_Dalam_Rumah = new Event ({
 	Name : "Kamu_Mati_Dibunuh_Hewan_Buas_Di_Dalam_Rumah",
-	Occurence : "Setelah mengubur badan itu di dekat rumah, kamu mulai berusaha untuk membiasakan diri dengan lingkungan sekitar, sekaligus menenangkan diri setelah membunuh seorang manusia. Namun di malam harinya, sekelompok hewan buas yang pernah kamu lihat tiba-tiba dating dan mengepung rumah dari segala arah, bahkan ada yang masuk melalui pintu dan mengendus-endus di tempat bekas kamu membunuh pria tadi—mungkin aroma darahnya masih tersisa. Kamu mencoba untuk mengusir sekelompok hewan itu, tapi kamu sama sekali bukan tandingan hewan yang gesit itu di tempat yang sempit seperti ini. Kamu juga mati terbunuh oleh hewan itu di dalam rumahmu.",
+	Occurence : "Setelah mengubur badan itu di dekat rumah, kamu mulai berusaha untuk membiasakan diri dengan lingkungan sekitar, sekaligus menenangkan diri setelah membunuh seorang manusia. Namun di malam harinya, sekelompok hewan buas yang pernah kamu lihat tiba-tiba datang dan mengepung rumah dari segala arah, bahkan ada yang masuk melalui pintu dan mengendus-endus di tempat bekas kamu membunuh pria tadi—mungkin aroma darahnya masih tersisa. Kamu mencoba untuk mengusir sekelompok hewan itu, tapi kamu sama sekali bukan tandingan hewan yang gesit itu di tempat yang sempit seperti ini. Kamu juga mati terbunuh oleh hewan itu di dalam rumahmu.",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -971,7 +966,7 @@ export const Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Bi
 		},
 		{
 			id : "B",
-			answer : "Kamu memilih untuk tidak menyiapkan belati di tanganmu. Bila memang benar itu manusia, kamu berharap untuk berkomunikasi dengannya scr baik-baik dahulu.​​"
+			answer : "Kamu memilih untuk tidak menyiapkan belati di tanganmu. Bila memang benar itu manusia, kamu berharap untuk berkomunikasi dengannya secara baik-baik terlebih dahulu.​​"
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -983,12 +978,12 @@ export const Kamu_Mendobrak_Pintu_Dan_Mendengar_Suara_Manusia_Dari_Dalam_Rute_Bi
 
 export const Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_Bahasa_Isyarat = new Event ({
 	Name : "Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Berusaha_Berkomunikasi_Dengan_Bahasa_Isyarat",
-	Occurence : "Benar, ada manusia di dalam. Seorang pria paruh baya menampakkan diri di hadapanmu, tangannya sudah bersiap membawa belati. Wajahnya tampak ketakutan dan dan mulai mengoceh dengan Bahasa yang tidak kamu mengerti. Namun sesuai niat awalmu, kamu ingin berkomunikasi dengan baik-baik.​​​",
+	Occurence : "Benar, ada manusia di dalam. Seorang pria paruh baya menampakkan diri di hadapanmu, tangannya sudah bersiap membawa belati. Wajahnya tampak ketakutan dan dan mulai mengoceh dengan bahasa yang tidak kamu mengerti. Namun sesuai niat awalmu, kamu ingin berkomunikasi dengan baik-baik.​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Karena tidak mengerti sama sekali, kamu menggunakan Bahasa isyarat untuk berusaha menjelaskan apa yang terjadi."
+			answer : "Karena tidak mengerti sama sekali, kamu menggunakan bahasa isyarat untuk berusaha menjelaskan apa yang terjadi."
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -1013,7 +1008,7 @@ export const Kamu_Dibunuh_Tanpa_Ampun_Karena_Kamu_Menakutinya_Setelah_Mendobrak_
 
 export const Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada = new Event ({
 	Name : "Benar_Ada_Manusia_Di_Dalam_Dan_Kamu_Tetap_Waspada",
-	Occurence : "Benar, ada manusia di dalam. Seorang pria paruh baya menampakkan dirinya, tangannya sudah bersiap membawa belati. Wajahnya tampak ketakutan dan dan mulai berseru-seru dalam Bahasa yang tidak kamu mengerti. Namun sesuai niat awalmu, kamu tetap waspada.​​",
+	Occurence : "Benar, ada manusia di dalam. Seorang pria paruh baya menampakkan dirinya, tangannya sudah bersiap membawa belati. Wajahnya tampak ketakutan dan dan mulai berseru-seru dalam bahasa yang tidak kamu mengerti. Namun sesuai niat awalmu, kamu tetap waspada.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -1065,7 +1060,7 @@ export const Serangan_Mendadakmu_Meleset_Dan_Kamu_Bertarung = new Event ({
 		},
 		{
 			id : "D",
-			answer : "Menganggap dirimu sendiri sama sekali tidak berpengalaman dalam pertarungan langsung lalu serangan kejutanmu juga gagal, kamu menyerah begitu saja dari awal mengharap ampunan.​"
+			answer : "Menganggap dirimu sama sekali tidak berpengalaman dalam pertarungan langsung, ditambah dengan serangan kejutanmu yang juga gagal, kamu langsung menyerah begitu saja dan mengharap ampunan"
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -1247,16 +1242,16 @@ export const Kamu_Menemukan_Rumah_Kecil_Rute_Kuning = new Event ({
 
 export const Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning = new Event ({
 	Name : "Kamu_Mendengar_Suara_Langkah_Dari_Dalam_Rute_Kuning",
-	Occurence : "​​Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara Bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​",
+	Occurence : "​​Beberapa saat kemudian, kamu mendengar suara Langkah dari dalam dan pintu terbuka. Kamu terkejut. Benar! Rumah ini rupanya dihuni oleh manusia. Seorang pria paruh baya sekarang sedang berdiri di hadapannya. Manusia di hadapannya juga tampak terkejut, mulai berbicara bahasa yang tidak kamu mengerti, dari raut wajahnya dia kelihatan takut dan cemas.​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Meskipun tidak mengerti bahasanya, namun kamu tetap berusaha untuk berkomunikasi dengan pria di hadapanmu sekarang ini dengan Bahasa isyarat.​"
+			answer : "Meskipun tidak mengerti bahasanya, namun kamu tetap berusaha untuk berkomunikasi dengan pria di hadapanmu sekarang ini dengan bahasa isyarat.​"
 		},
 		{
 			id : "B",
-			answer : "Kamu juga mulai kebingungan dan mulai agitated.  Karena tidak bisa berkomunikasi. Kamu mulai memikirkan cara lain.​​"
+			answer : "Kamu juga mulai kebingungan dan mulai gelisah.  Karena tidak bisa berkomunikasi. Kamu mulai memikirkan cara lain.​​"
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -1310,7 +1305,7 @@ export const Pria_Itu_Mulai_Mengeluarkan_Belati_Dan_Tampak_Ketakutan_Rute_Kuning
 
 export const Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi = new Event ({
 	Name : "Pria_Di_Hadapanmu_Tiba_Tiba_Bersikap_Aneh_Setelah_Kamu_Intimidasi",
-	Occurence : "Pria di hadapanmu tiba-tiba berteriak. Dia sepertinya benar-benar terkejut setelah melihat potongan daging yang kamu tunjukkan. Dia mulai mencerocos dalam Bahasa asing, memelukmu dengan erat. Kamu juga mendadak kebingungan. Apa yang sebenarnya orang ini lakukan?​​​",
+	Occurence : "Pria di hadapanmu tiba-tiba berteriak. Dia sepertinya benar-benar terkejut setelah melihat potongan daging yang kamu tunjukkan. Dia mulai mencerocos dalam bahasa asing, memelukmu dengan erat. Kamu juga mendadak kebingungan. Apa yang sebenarnya orang ini lakukan?​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -1499,7 +1494,7 @@ export const Makan_Sup_1 = new Event ({
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Kamu akhirnya bisa tertawa Bersama pria pemilik rumah. Sepertinya keraguanmu Sudah mulai menghilang sepenuhnya dalam momen ini. Selama dipindahkan ke dimensi ini, semuanya benar benar melelahkan. Kamu sudah hampir mati setelah bertemu dengan beberapa hewan buas mirip serigala di hutan tadi dan berhasil membunuh salah satunya.<br><br>Setelah Lelah berjalan, akhirnya kamu melihat cahaya di tengah perjalananmu dan menemukan sebuah rumah di tengah hutan yang berbahaya seperti ini. Saat kamu mengeceknya, ternyata manusia benar-benar tinggal di tempat ini. Sambutan awalnya kepadamu memang tak terlalu sopan dan sempat membuatmu terkejut, namun sepertinya pilihanmu untuk menunjukkannya potongan daging hasil buruanmu berhasil meyakinkannya atas sesuatu. Pria itu pun akhirnya menyambutmu dengan baik dan bahkan membolehkanmu untuk beristirahat di dalam rumahnya dan memberimu makanan hangat.​​​​​<br><br>Kamu memang sungguh merasa berterima kasih untuk makanan dan semua yang telah pria itu berikan kepadamu selama sehari belakangan ini dan hendak bersegera pergi. Namun pria pemilik rumah menghentikanmu di ambang pintu depan rumah, dan mengatakan sesuatu yang benar-benar membuatmu terkejut.<br><br>Pria itu tiba-tiba berbicara Bahasa yang sama denganmu untuk sebuah kalimat, dan hal itu tentu saja sangat cukup untuk membuatmu terkejut bukan main. Pria itu akhirnya memberitahumu bahwa dia memang dari awal sudah bisa berbicara dengan Bahasa yang sama seperti yang kamu gunakan dari dunia asalmu. Namun, apa yang sesungguhnya terjadi?<br><br>Setelah itu, kamu memutuskan untuk tinggal sejenak karena penasaran dengan apa yang sedang terjadi. Pria itu sekarang duduk berhadapan denganmu, dan mulai bercerita soal apa masa lalunya dan apa yang sebenarnya terjadi di tempat ini.<br><br>Namanya Vooi, ia sudah berusia 53 tahun. Ternyata, Vooi berasal dari dunia yang sama dari tempatmu berasal. Dan penyebab ia bisa berada di sini sekarang juga sama persis denganmu, yaitu dipindahkan secara tiba-tiba.<br><br>​Ia sempat berbicara tentang masa lalunya. Bertahun-tahun yang lalu, ia juga tiba-tiba saja dipindahkan ke hutan ini. Ia juga menyadari kalau ia tiba tiba mendapatkan sebilah belati misterius di dalam saku bajunya, tapi nasibnya tidak sebaik kamu dulu. Dia tidak bisa menggunakan belatinya sama sekali dan nyaris sekali dimangsa oleh Tav—nama hewan buas itu. Namun, seseorang tiba-tiba datang menyelamatkannya dan membunuh sekelompok Tav di sana dengan panah dan belati.<br><br>​Vooi pun mengikuti orang itu hingga sampai ke rumah ini. Meski belum mengerti Bahasa asing yang dikatakan orang itu, dia tetap berusaha meyakinkan orang itu untuk bisa tinggal di rumah ini. Walaupun tak mengerti Bahasa masing-masing, sepertinya orang itu mengerti dan membolehkannya tinggal.<br><br>Setelah berbulan-bulan hidup Bersama, Vooi akhirnya menguasai sepenuhnya bahasa dunia lain ini. Mereka berdua hidup Bersama di rumah ini dan berjanji suatu saat akan keluar dan mencari peradaban bila semuanya sudah siap. Namun sayangnya, orang itu sudah meninggal duluan. Akhirnya Vooi harus berusaha hidup sendirian sejak saat itu dan menunggui makamnya di sini.<br><br>Setelah menyelesaikan ceritanya, Vooi juga meminta maaf soal penyambutan anehnya tadi malam. Ia hanya waspada karena tiba-tiba melihat orang lain datang ke rumahnya di tempat yang begitu terpencil ini setelah sekian lama. Setelah kamu menunjukkan potongan daging yang kamu bawa, Vooi langsung mengira kamu adalah seorang pemburu yang tersesat di sini. Kamu hanya bisa tertawa mendengarnya, dan kalian bercengkerama ria setelah itu.<br><br>Setelah itu, kamu menawarkan diri untuk hidup bersama dengan Vooi di rumah itu. Kalian berdua pun berjanji—setelah semuanya siap nanti—untuk kelak akan meninggalkan rumah ini bersama dan mencari peradaban di luar hutan ini berdua. Juga dalam rangka untuk menuntaskan janji yang Vooi buat dengan penyelamatnya dulu."
+			answer : "Kamu akhirnya bisa tertawa Bersama pria pemilik rumah. Sepertinya keraguanmu Sudah mulai menghilang sepenuhnya dalam momen ini. Selama dipindahkan ke dimensi ini, semuanya benar benar melelahkan. Kamu sudah hampir mati setelah bertemu dengan beberapa hewan buas mirip serigala di hutan tadi dan berhasil membunuh salah satunya.<br><br>Setelah lelah berjalan, akhirnya kamu melihat cahaya di tengah perjalananmu dan menemukan sebuah rumah di tengah hutan yang berbahaya seperti ini. Saat kamu mengeceknya, ternyata manusia benar-benar tinggal di tempat ini. Sambutan awalnya kepadamu memang tak terlalu sopan dan sempat membuatmu terkejut, namun sepertinya pilihanmu untuk menunjukkannya potongan daging hasil buruanmu berhasil meyakinkannya atas sesuatu. Pria itu pun akhirnya menyambutmu dengan baik dan bahkan membolehkanmu untuk beristirahat di dalam rumahnya dan memberimu makanan hangat.​​​​​<br><br>Kamu memang sungguh merasa berterima kasih untuk makanan dan semua yang telah pria itu berikan kepadamu selama sehari belakangan ini dan hendak bersegera pergi. Namun pria pemilik rumah menghentikanmu di ambang pintu depan rumah, dan mengatakan sesuatu yang benar-benar membuatmu terkejut.<br><br>Pria itu tiba-tiba berbicara bahasa yang sama denganmu untuk sebuah kalimat, dan hal itu tentu saja sangat cukup untuk membuatmu terkejut bukan main. Pria itu akhirnya memberitahumu bahwa dia memang dari awal sudah bisa berbicara dengan bahasa yang sama seperti yang kamu gunakan dari dunia asalmu. Namun, apa yang sesungguhnya terjadi?<br><br>Setelah itu, kamu memutuskan untuk tinggal sejenak karena penasaran dengan apa yang sedang terjadi. Pria itu sekarang duduk berhadapan denganmu, dan mulai bercerita soal apa masa lalunya dan apa yang sebenarnya terjadi di tempat ini.<br><br>Namanya Vooi, ia sudah berusia 53 tahun. Ternyata, Vooi berasal dari dunia yang sama dari tempatmu berasal. Dan penyebab ia bisa berada di sini sekarang juga sama persis denganmu, yaitu dipindahkan secara tiba-tiba.<br><br>​Ia sempat berbicara tentang masa lalunya. Bertahun-tahun yang lalu, ia juga tiba-tiba saja dipindahkan ke hutan ini. Ia juga menyadari kalau ia tiba-tiba mendapatkan sebilah belati misterius di dalam saku bajunya, tapi nasibnya tidak sebaik kamu dulu. Dia tidak bisa menggunakan belatinya sama sekali dan nyaris sekali dimangsa oleh Tav—nama hewan buas itu. Namun, seseorang tiba-tiba datang menyelamatkannya dan membunuh sekelompok Tav di sana dengan panah dan belati.<br><br>​Vooi pun mengikuti orang itu hingga sampai ke rumah ini. Meski belum mengerti bahasa asing yang dikatakan orang itu, dia tetap berusaha meyakinkan orang itu untuk bisa tinggal di rumah ini. Walaupun tak mengerti bahasa masing-masing, sepertinya orang itu mengerti dan membolehkannya tinggal.<br><br>Setelah berbulan-bulan hidup Bersama, Vooi akhirnya menguasai sepenuhnya bahasa dunia lain ini. Mereka berdua hidup Bersama di rumah ini dan berjanji suatu saat akan keluar dan mencari peradaban bila semuanya sudah siap. Namun sayangnya, orang itu sudah meninggal duluan. Akhirnya Vooi harus berusaha hidup sendirian sejak saat itu dan menunggui makamnya di sini.<br><br>Setelah menyelesaikan ceritanya, Vooi juga meminta maaf soal penyambutan anehnya tadi malam. Ia hanya waspada karena tiba-tiba melihat orang lain datang ke rumahnya di tempat yang begitu terpencil ini setelah sekian lama. Setelah kamu menunjukkan potongan daging yang kamu bawa, Vooi langsung mengira kamu adalah seorang pemburu yang tersesat di sini. Kamu hanya bisa tertawa mendengarnya, dan kalian bercengkerama ria setelah itu.<br><br>Setelah itu, kamu menawarkan diri untuk hidup bersama dengan Vooi di rumah itu. Kalian berdua pun berjanji—setelah semuanya siap nanti—untuk kelak akan meninggalkan rumah ini bersama dan mencari peradaban di luar hutan ini berdua. Juga dalam rangka untuk menuntaskan janji yang Vooi buat dengan penyelamatnya dulu."
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -1516,7 +1511,7 @@ export const Makan_Sup_2 = new Event ({
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Kamu akhirnya bisa tertawa Bersama pria pemilik rumah. Sepertinya keraguanmu Sudah mulai menghilang sepenuhnya dalam momen ini. Selama dipindahkan ke dimensi ini, semuanya benar benar melelahkan. Kamu sudah hampir mati setelah bertemu dengan beberapa hewan buas mirip serigala di hutan tadi dan berhasil membunuh salah satunya.<br><br>Setelah Lelah berjalan, akhirnya kamu melihat cahaya di tengah perjalananmu dan menemukan sebuah rumah di tengah hutan yang berbahaya seperti ini. Saat kamu mengeceknya, ternyata manusia benar-benar tinggal di tempat ini. Sambutan awalnya kepadamu memang tak terlalu sopan dan sempat membuatmu terkejut, namun sepertinya pilihanmu untuk menunjukkannya potongan daging hasil buruanmu berhasil meyakinkannya atas sesuatu. Pria itu pun akhirnya menyambutmu dengan baik dan bahkan membolehkanmu untuk beristirahat di dalam rumahnya dan memberimu makanan hangat.​​​​​<br><br>Kamu memang sungguh merasa berterima kasih untuk makanan dan semua yang telah pria itu berikan kepadamu selama sehari belakangan ini dan hendak bersegera pergi. Namun pria pemilik rumah menghentikanmu di ambang pintu depan rumah, dan mengatakan sesuatu yang benar-benar membuatmu terkejut.<br><br>Pria itu tiba-tiba berbicara Bahasa yang sama denganmu untuk sebuah kalimat, dan hal itu tentu saja sangat cukup untuk membuatmu terkejut bukan main. Pria itu akhirnya memberitahumu bahwa dia memang dari awal sudah bisa berbicara dengan Bahasa yang sama seperti yang kamu gunakan dari dunia asalmu. Namun, apa yang sesungguhnya terjadi?<br><br>Setelah itu, kamu memutuskan untuk tinggal sejenak karena penasaran dengan apa yang sedang terjadi. Pria itu sekarang duduk berhadapan denganmu, dan mulai bercerita soal apa masa lalunya dan apa yang sebenarnya terjadi di tempat ini.<br><br>Namanya Vooi, ia sudah berusia 53 tahun. Ternyata, Vooi berasal dari dunia yang sama dari tempatmu berasal. Dan penyebab ia bisa berada di sini sekarang juga sama persis denganmu, yaitu dipindahkan secara tiba-tiba.<br><br>​Ia sempat berbicara tentang masa lalunya. Bertahun-tahun yang lalu, ia juga tiba-tiba saja dipindahkan ke hutan ini. Ia juga menyadari kalau ia tiba tiba mendapatkan sebilah belati misterius di dalam saku bajunya, tapi nasibnya tidak sebaik kamu dulu. Dia tidak bisa menggunakan belatinya sama sekali dan nyaris sekali dimangsa oleh Tav—nama hewan buas itu. Namun, seseorang tiba-tiba datang menyelamatkannya dan membunuh sekelompok Tav di sana dengan panah dan belati.<br><br>​Vooi pun mengikuti orang itu hingga sampai ke rumah ini. Meski belum mengerti Bahasa asing yang dikatakan orang itu, dia tetap berusaha meyakinkan orang itu untuk bisa tinggal di rumah ini. Walaupun tak mengerti Bahasa masing-masing, sepertinya orang itu mengerti dan membolehkannya tinggal.<br><br>Setelah berbulan-bulan hidup Bersama, Vooi akhirnya menguasai sepenuhnya bahasa dunia lain ini. Mereka berdua hidup Bersama di rumah ini dan berjanji suatu saat akan keluar dan mencari peradaban bila semuanya sudah siap. Namun sayangnya, orang itu sudah meninggal duluan. Akhirnya Vooi harus berusaha hidup sendirian sejak saat itu dan menunggui makamnya di sini.<br><br>Setelah menyelesaikan ceritanya, Vooi juga meminta maaf soal penyambutan anehnya tadi malam. Ia hanya waspada karena tiba-tiba melihat orang lain datang ke rumahnya di tempat yang begitu terpencil ini setelah sekian lama. Setelah kamu menunjukkan potongan daging yang kamu bawa, Vooi langsung mengira kamu adalah seorang pemburu yang tersesat di sini. Kamu hanya bisa tertawa mendengarnya, dan kalian bercengkerama ria setelah itu.<br><br>Setelah itu, kamu menawarkan diri untuk hidup bersama dengan Vooi di rumah itu. Kalian berdua pun berjanji—setelah semuanya siap nanti—untuk kelak akan meninggalkan rumah ini bersama dan mencari peradaban di luar hutan ini berdua. Juga dalam rangka untuk menuntaskan janji yang Vooi buat dengan penyelamatnya dulu."
+			answer : "Kamu akhirnya bisa tertawa Bersama pria pemilik rumah. Sepertinya keraguanmu Sudah mulai menghilang sepenuhnya dalam momen ini. Selama dipindahkan ke dimensi ini, semuanya benar benar melelahkan. Kamu sudah hampir mati setelah bertemu dengan beberapa hewan buas mirip serigala di hutan tadi dan berhasil membunuh salah satunya.<br><br>Setelah lelah berjalan, akhirnya kamu melihat cahaya di tengah perjalananmu dan menemukan sebuah rumah di tengah hutan yang berbahaya seperti ini. Saat kamu mengeceknya, ternyata manusia benar-benar tinggal di tempat ini. Sambutan awalnya kepadamu memang tak terlalu sopan dan sempat membuatmu terkejut, namun sepertinya pilihanmu untuk menunjukkannya potongan daging hasil buruanmu berhasil meyakinkannya atas sesuatu. Pria itu pun akhirnya menyambutmu dengan baik dan bahkan membolehkanmu untuk beristirahat di dalam rumahnya dan memberimu makanan hangat.​​​​​<br><br>Kamu memang sungguh merasa berterima kasih untuk makanan dan semua yang telah pria itu berikan kepadamu selama sehari belakangan ini dan hendak bersegera pergi. Namun pria pemilik rumah menghentikanmu di ambang pintu depan rumah, dan mengatakan sesuatu yang benar-benar membuatmu terkejut.<br><br>Pria itu tiba-tiba berbicara bahasa yang sama denganmu untuk sebuah kalimat, dan hal itu tentu saja sangat cukup untuk membuatmu terkejut bukan main. Pria itu akhirnya memberitahumu bahwa dia memang dari awal sudah bisa berbicara dengan bahasa yang sama seperti yang kamu gunakan dari dunia asalmu. Namun, apa yang sesungguhnya terjadi?<br><br>Setelah itu, kamu memutuskan untuk tinggal sejenak karena penasaran dengan apa yang sedang terjadi. Pria itu sekarang duduk berhadapan denganmu, dan mulai bercerita soal apa masa lalunya dan apa yang sebenarnya terjadi di tempat ini.<br><br>Namanya Vooi, ia sudah berusia 53 tahun. Ternyata, Vooi berasal dari dunia yang sama dari tempatmu berasal. Dan penyebab ia bisa berada di sini sekarang juga sama persis denganmu, yaitu dipindahkan secara tiba-tiba.<br><br>​Ia sempat berbicara tentang masa lalunya. Bertahun-tahun yang lalu, ia juga tiba-tiba saja dipindahkan ke hutan ini. Ia juga menyadari kalau ia tiba-tiba mendapatkan sebilah belati misterius di dalam saku bajunya, tapi nasibnya tidak sebaik kamu dulu. Dia tidak bisa menggunakan belatinya sama sekali dan nyaris sekali dimangsa oleh Tav—nama hewan buas itu. Namun, seseorang tiba-tiba datang menyelamatkannya dan membunuh sekelompok Tav di sana dengan panah dan belati.<br><br>​Vooi pun mengikuti orang itu hingga sampai ke rumah ini. Meski belum mengerti bahasa asing yang dikatakan orang itu, dia tetap berusaha meyakinkan orang itu untuk bisa tinggal di rumah ini. Walaupun tak mengerti bahasa masing-masing, sepertinya orang itu mengerti dan membolehkannya tinggal.<br><br>Setelah berbulan-bulan hidup Bersama, Vooi akhirnya menguasai sepenuhnya bahasa dunia lain ini. Mereka berdua hidup Bersama di rumah ini dan berjanji suatu saat akan keluar dan mencari peradaban bila semuanya sudah siap. Namun sayangnya, orang itu sudah meninggal duluan. Akhirnya Vooi harus berusaha hidup sendirian sejak saat itu dan menunggui makamnya di sini.<br><br>Setelah menyelesaikan ceritanya, Vooi juga meminta maaf soal penyambutan anehnya tadi malam. Ia hanya waspada karena tiba-tiba melihat orang lain datang ke rumahnya di tempat yang begitu terpencil ini setelah sekian lama. Setelah kamu menunjukkan potongan daging yang kamu bawa, Vooi langsung mengira kamu adalah seorang pemburu yang tersesat di sini. Kamu hanya bisa tertawa mendengarnya, dan kalian bercengkerama ria setelah itu.<br><br>Setelah itu, kamu menawarkan diri untuk hidup bersama dengan Vooi di rumah itu. Kalian berdua pun berjanji—setelah semuanya siap nanti—untuk kelak akan meninggalkan rumah ini bersama dan mencari peradaban di luar hutan ini berdua. Juga dalam rangka untuk menuntaskan janji yang Vooi buat dengan penyelamatnya dulu."
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -1528,12 +1523,12 @@ export const Makan_Sup_2 = new Event ({
 
 export const Makan_Sup_3 = new Event ({
 	Name : "Makan_Sup_3",
-	Occurence : "Kamu tidak sengaja bertemu dengan pria pemilik rumah saat kamu berkeliling mencari air. Dia tampak sedang melakukan seauatu. Melihatmu yang sedikit kebingungan, pria itu hanya tersenyum dan berkata sesuatu dalam Bahasa yang tidak kamu mengerti. Kamu hanya bisa membalas sebisanya dengan Bahasa isyarat dengan membuat pose meneguk air. Pria itu tergelak kecil, dan mengambilkanmu segelas air. Kamu meneguk semua isi gelasnya tanpa ragu.<br><br>​​​",
+	Occurence : "Kamu tidak sengaja bertemu dengan pria pemilik rumah saat kamu berkeliling mencari air. Dia tampak sedang melakukan seauatu. Melihatmu yang sedikit kebingungan, pria itu hanya tersenyum dan berkata sesuatu dalam bahasa yang tidak kamu mengerti. Kamu hanya bisa membalas sebisanya dengan bahasa isyarat dengan membuat pose meneguk air. Pria itu tergelak kecil, dan mengambilkanmu segelas air. Kamu meneguk semua isi gelasnya tanpa ragu.<br><br>​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
-			answer : "Kamu akhirnya bisa tertawa Bersama pria pemilik rumah. Sepertinya keraguanmu Sudah mulai menghilang sepenuhnya dalam momen ini. Selama dipindahkan ke dimensi ini, semuanya benar benar melelahkan. Kamu sudah hampir mati setelah bertemu dengan beberapa hewan buas mirip serigala di hutan tadi dan berhasil membunuh salah satunya.<br><br>Setelah Lelah berjalan, akhirnya kamu melihat cahaya di tengah perjalananmu dan menemukan sebuah rumah di tengah hutan yang berbahaya seperti ini. Saat kamu mengeceknya, ternyata manusia benar-benar tinggal di tempat ini. Sambutan awalnya kepadamu memang tak terlalu sopan dan sempat membuatmu terkejut, namun sepertinya pilihanmu untuk menunjukkannya potongan daging hasil buruanmu berhasil meyakinkannya atas sesuatu. Pria itu pun akhirnya menyambutmu dengan baik dan bahkan membolehkanmu untuk beristirahat di dalam rumahnya dan memberimu makanan hangat.​​​​​<br><br>Kamu memang sungguh merasa berterima kasih untuk makanan dan semua yang telah pria itu berikan kepadamu selama sehari belakangan ini dan hendak bersegera pergi. Namun pria pemilik rumah menghentikanmu di ambang pintu depan rumah, dan mengatakan sesuatu yang benar-benar membuatmu terkejut.<br><br>Pria itu tiba-tiba berbicara Bahasa yang sama denganmu untuk sebuah kalimat, dan hal itu tentu saja sangat cukup untuk membuatmu terkejut bukan main. Pria itu akhirnya memberitahumu bahwa dia memang dari awal sudah bisa berbicara dengan Bahasa yang sama seperti yang kamu gunakan dari dunia asalmu. Namun, apa yang sesungguhnya terjadi?<br><br>Setelah itu, kamu memutuskan untuk tinggal sejenak karena penasaran dengan apa yang sedang terjadi. Pria itu sekarang duduk berhadapan denganmu, dan mulai bercerita soal apa masa lalunya dan apa yang sebenarnya terjadi di tempat ini.<br><br>Namanya Vooi, ia sudah berusia 53 tahun. Ternyata, Vooi berasal dari dunia yang sama dari tempatmu berasal. Dan penyebab ia bisa berada di sini sekarang juga sama persis denganmu, yaitu dipindahkan secara tiba-tiba.<br><br>​Ia sempat berbicara tentang masa lalunya. Bertahun-tahun yang lalu, ia juga tiba-tiba saja dipindahkan ke hutan ini. Ia juga menyadari kalau ia tiba tiba mendapatkan sebilah belati misterius di dalam saku bajunya, tapi nasibnya tidak sebaik kamu dulu. Dia tidak bisa menggunakan belatinya sama sekali dan nyaris sekali dimangsa oleh Tav—nama hewan buas itu. Namun, seseorang tiba-tiba datang menyelamatkannya dan membunuh sekelompok Tav di sana dengan panah dan belati.<br><br>​Vooi pun mengikuti orang itu hingga sampai ke rumah ini. Meski belum mengerti Bahasa asing yang dikatakan orang itu, dia tetap berusaha meyakinkan orang itu untuk bisa tinggal di rumah ini. Walaupun tak mengerti Bahasa masing-masing, sepertinya orang itu mengerti dan membolehkannya tinggal.<br><br>Setelah berbulan-bulan hidup Bersama, Vooi akhirnya menguasai sepenuhnya bahasa dunia lain ini. Mereka berdua hidup Bersama di rumah ini dan berjanji suatu saat akan keluar dan mencari peradaban bila semuanya sudah siap. Namun sayangnya, orang itu sudah meninggal duluan. Akhirnya Vooi harus berusaha hidup sendirian sejak saat itu dan menunggui makamnya di sini.<br><br>Setelah menyelesaikan ceritanya, Vooi juga meminta maaf soal penyambutan anehnya tadi malam. Ia hanya waspada karena tiba-tiba melihat orang lain datang ke rumahnya di tempat yang begitu terpencil ini setelah sekian lama. Setelah kamu menunjukkan potongan daging yang kamu bawa, Vooi langsung mengira kamu adalah seorang pemburu yang tersesat di sini. Kamu hanya bisa tertawa mendengarnya, dan kalian bercengkerama ria setelah itu.<br><br>Setelah itu, kamu menawarkan diri untuk hidup bersama dengan Vooi di rumah itu. Kalian berdua pun berjanji—setelah semuanya siap nanti—untuk kelak akan meninggalkan rumah ini bersama dan mencari peradaban di luar hutan ini berdua. Juga dalam rangka untuk menuntaskan janji yang Vooi buat dengan penyelamatnya dulu."
+			answer : "Kamu akhirnya bisa tertawa Bersama pria pemilik rumah. Sepertinya keraguanmu Sudah mulai menghilang sepenuhnya dalam momen ini. Selama dipindahkan ke dimensi ini, semuanya benar benar melelahkan. Kamu sudah hampir mati setelah bertemu dengan beberapa hewan buas mirip serigala di hutan tadi dan berhasil membunuh salah satunya.<br><br>Setelah lelah berjalan, akhirnya kamu melihat cahaya di tengah perjalananmu dan menemukan sebuah rumah di tengah hutan yang berbahaya seperti ini. Saat kamu mengeceknya, ternyata manusia benar-benar tinggal di tempat ini. Sambutan awalnya kepadamu memang tak terlalu sopan dan sempat membuatmu terkejut, namun sepertinya pilihanmu untuk menunjukkannya potongan daging hasil buruanmu berhasil meyakinkannya atas sesuatu. Pria itu pun akhirnya menyambutmu dengan baik dan bahkan membolehkanmu untuk beristirahat di dalam rumahnya dan memberimu makanan hangat.​​​​​<br><br>Kamu memang sungguh merasa berterima kasih untuk makanan dan semua yang telah pria itu berikan kepadamu selama sehari belakangan ini dan hendak bersegera pergi. Namun pria pemilik rumah menghentikanmu di ambang pintu depan rumah, dan mengatakan sesuatu yang benar-benar membuatmu terkejut.<br><br>Pria itu tiba-tiba berbicara bahasa yang sama denganmu untuk sebuah kalimat, dan hal itu tentu saja sangat cukup untuk membuatmu terkejut bukan main. Pria itu akhirnya memberitahumu bahwa dia memang dari awal sudah bisa berbicara dengan bahasa yang sama seperti yang kamu gunakan dari dunia asalmu. Namun, apa yang sesungguhnya terjadi?<br><br>Setelah itu, kamu memutuskan untuk tinggal sejenak karena penasaran dengan apa yang sedang terjadi. Pria itu sekarang duduk berhadapan denganmu, dan mulai bercerita soal apa masa lalunya dan apa yang sebenarnya terjadi di tempat ini.<br><br>Namanya Vooi, ia sudah berusia 53 tahun. Ternyata, Vooi berasal dari dunia yang sama dari tempatmu berasal. Dan penyebab ia bisa berada di sini sekarang juga sama persis denganmu, yaitu dipindahkan secara tiba-tiba.<br><br>​Ia sempat berbicara tentang masa lalunya. Bertahun-tahun yang lalu, ia juga tiba-tiba saja dipindahkan ke hutan ini. Ia juga menyadari kalau ia tiba-tiba mendapatkan sebilah belati misterius di dalam saku bajunya, tapi nasibnya tidak sebaik kamu dulu. Dia tidak bisa menggunakan belatinya sama sekali dan nyaris sekali dimangsa oleh Tav—nama hewan buas itu. Namun, seseorang tiba-tiba datang menyelamatkannya dan membunuh sekelompok Tav di sana dengan panah dan belati.<br><br>​Vooi pun mengikuti orang itu hingga sampai ke rumah ini. Meski belum mengerti bahasa asing yang dikatakan orang itu, dia tetap berusaha meyakinkan orang itu untuk bisa tinggal di rumah ini. Walaupun tak mengerti bahasa masing-masing, sepertinya orang itu mengerti dan membolehkannya tinggal.<br><br>Setelah berbulan-bulan hidup Bersama, Vooi akhirnya menguasai sepenuhnya bahasa dunia lain ini. Mereka berdua hidup Bersama di rumah ini dan berjanji suatu saat akan keluar dan mencari peradaban bila semuanya sudah siap. Namun sayangnya, orang itu sudah meninggal duluan. Akhirnya Vooi harus berusaha hidup sendirian sejak saat itu dan menunggui makamnya di sini.<br><br>Setelah menyelesaikan ceritanya, Vooi juga meminta maaf soal penyambutan anehnya tadi malam. Ia hanya waspada karena tiba-tiba melihat orang lain datang ke rumahnya di tempat yang begitu terpencil ini setelah sekian lama. Setelah kamu menunjukkan potongan daging yang kamu bawa, Vooi langsung mengira kamu adalah seorang pemburu yang tersesat di sini. Kamu hanya bisa tertawa mendengarnya, dan kalian bercengkerama ria setelah itu.<br><br>Setelah itu, kamu menawarkan diri untuk hidup bersama dengan Vooi di rumah itu. Kalian berdua pun berjanji—setelah semuanya siap nanti—untuk kelak akan meninggalkan rumah ini bersama dan mencari peradaban di luar hutan ini berdua. Juga dalam rangka untuk menuntaskan janji yang Vooi buat dengan penyelamatnya dulu."
 		}
 	],
 	Answers_For_Next_Event_List : [
