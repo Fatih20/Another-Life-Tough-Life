@@ -1438,7 +1438,7 @@ export const Kamu_Terbangun_Di_Pagi_Hari_Dan_Diberi_Makanan = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""},
+		{trigger : "A", next_event_name : "Makan_Sup_2"},
 		{trigger : "B", next_event_name : "Pria_Itu_Membuktikan_Makanannya_Tidak_Beracun_Dan_Kamu_Memakannya"}
 	],
 	Lazy_Mode : true
@@ -1455,7 +1455,7 @@ export const Pria_Itu_Membuktikan_Makanannya_Tidak_Beracun_Dan_Kamu_Memakannya =
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : "Pada_Akhirnya_Kamu_Tetap_Mengantuk_Dan_Akhirnya_Tertidur_Di_Rumah_Itu"}
+		{trigger : "A", next_event_name : "Makan_Sup_3"}
 	],
 	Lazy_Mode : true
 });
@@ -1487,7 +1487,7 @@ export const Kamu_Bangun_Tidur_Dan_Menemukan_Makanan_Di_Dekatmu = new Event ({
 		}
 	],
 	Answers_For_Next_Event_List : [
-		{trigger : "A", next_event_name : ""}
+		{trigger : "A", next_event_name : "Makan_Sup_1"}
 	],
 	Lazy_Mode : true
 });
