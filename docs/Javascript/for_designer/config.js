@@ -35,7 +35,7 @@ export const attribution = [
 
 export const paragraph_periodicity = {
     periodicity : true,
-    period : 4
+    period : 2
 }
 
 export const show_ending_option_button = true;

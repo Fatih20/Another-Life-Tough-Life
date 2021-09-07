@@ -12,7 +12,8 @@ export class Event {
                 this.Ending[possible_answer.id] = [
                     {
                         type: "default_ending",
-                        story_bit : event_attribute.Occurence+ " " + possible_answer.answer
+                        story_bit : event_attribute.Occurence+ " " + possible_answer.answer,
+                        paragraph : "none"
                     }
                 ]
             }
@@ -85,12 +86,13 @@ export class Event {
             let paragraph_type;
             if (periodicity){
                 console.log(parseInt(currently_examined_path.nth_event));
-                if ((parseInt(currently_examined_path.nth_event)+1)% period === 0 ){
+                if ((parseInt(currently_examined_path.nth_event)+1)% period === 0){
                     paragraph_type = "last sentence";
                 } else{
                     paragraph_type = condition_list[index_of_compatible_condition].paragraph;
                 }
             }
+            console.log(paragraph_type);
             return {story_bit : this.paragraph_determiner(end_game_story_bit, paragraph_type, paragraph_type_ledger), paragraph_type : paragraph_type};
         }
     

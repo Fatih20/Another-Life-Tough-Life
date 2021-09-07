@@ -194,7 +194,7 @@ export const Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu = new Event ({
 		},
 		{
 			id : "B",
-			answer : "Perasaanmu semakin tidak keruan. Kamu mempercepat larimu secara tidak beraturan."
+			answer : "Perasaanmu semakin tidak keruan. Kamu mempercepat larimu, namun kamu hanya berputar-putar di antara pohon-pohon karena panik."
 		}
 	],
 	Answers_For_Next_Event_List : [
