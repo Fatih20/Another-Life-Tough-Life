@@ -185,7 +185,7 @@ export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 
 export const Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu = new Event ({
 	Name : "Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu",
-	Occurence : "Ternyata ada auman hewan buas terdengar dari kejauhan! Kamu melihat ke belakang, ternyata ada hewan buas asing yang tidak kamu kenali sedang mengejarmu. Mungkin hewan itu mendengar teriakan kencangmu barusan. Kamu mempercepat larimu. ",
+	Occurence : "Ternyata ada auman hewan buas terdengar dari kejauhan! Kamu melihat ke belakang, ternyata ada hewan buas asing yang tidak kamu kenali sedang mengejarmu. Mungkin hewan itu mendengar teriakan kencangmu barusan.",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -649,7 +649,7 @@ export const Kamu_Dikejar_Pria_Yang_Tadi = new Event ({
 
 export const Kamu_Tersandung_Dan_Dibunuh_Pria_Itu = new Event ({
 	Name : "Kamu_Tersandung_Dan_Dibunuh_Pria_Itu",
-	Occurence : "Kamu berlari secepat yang kamu bisa, namun tetap saja kamu sama sekali tidak mengenali tempat ini, ditambah hari sudah malam dan jarak pandang terbatas. Pada satu kesempatan, kamu tersandung oleh sesuatu yang tidak bisa kamu lihat dan pria itu berhasil mengejarmu. Ia tanpa ampun langsung menusuk dadamu tanpa dan membakarmu hidup-hidup. Kamu tewas seketika.​​​",
+	Occurence : "Kamu berlari secepat yang kamu bisa, namun tetap saja kamu sama sekali tidak mengenali tempat ini, ditambah hari sudah malam dan jarak pandang terbatas. Pada satu kesempatan, kamu tersandung oleh sesuatu yang tidak bisa kamu lihat dan pria itu berhasil mengejarmu. Ia tanpa ampun langsung menusuk dadamu dan membakarmu hidup-hidup. Kamu tewas seketika.​​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
