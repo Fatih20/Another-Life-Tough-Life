@@ -164,7 +164,7 @@ export const Kamu_Diterkam_Tiba_Tiba_Dan_Mati = new Event ({
 
 export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 	Name : "Kamu_Berteriak_Keras_Lalu_Mulai_Berlari",
-	Occurence : "Secara refleks kamu berteriak keras, ketakutanmu sudah mencapai batasnya. Kamu tiba-tiba saja masuk ke dunia lain yang benar-benar asing yang membuatmu panik. Kamu mulai berlarian tanpa arah sambil terus berteriak.",
+	Occurence : "Secara refleks kamu berteriak keras, ketakutanmu sudah mencapai batasnya. Kamu tiba-tiba saja masuk ke dunia lain yang benar-benar asing yang membuatmu panik. Kamu mulai berlarian sambil terus berteriak.",
 	Question : "",
 	Possible_Answer_List : [
 		{
