@@ -55,6 +55,7 @@ function generate_end_story (path_taken) {
     let path_summation_list = [];
     let paragraph_type_ledger = [];
     for (const path of path_taken) {
+        console.log(path)
         const examined_event = event_file.event_name_conversion[path.name_of_event];
         let story_bit_and_paragraph_type;
         if (examined_path_list.length === path_taken.length-1){
@@ -62,6 +63,7 @@ function generate_end_story (path_taken) {
         } else {
             story_bit_and_paragraph_type = examined_event.end_story_bit_generator(examined_path_list, path, paragraph_type_ledger, false, config.paragraph_periodicity.periodicity, config.paragraph_periodicity.period);
         }
+        console.log(story_bit_and_paragraph_type.story_bit);
 
         path_summation_list.push(story_bit_and_paragraph_type.story_bit);
         paragraph_type_ledger.push(story_bit_and_paragraph_type.paragraph_type);

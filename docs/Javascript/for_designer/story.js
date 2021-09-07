@@ -173,7 +173,7 @@ export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 		},
 		{
 			id : "B",
-			answer : "Kamu memilih untuk berlarian random (zig-zag)."
+			answer : "Kamu memilih untuk berlarian tanpa arah yang jelas."
 		}
 	],
 	Answers_For_Next_Event_List : [
@@ -194,7 +194,7 @@ export const Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu = new Event ({
 		},
 		{
 			id : "B",
-			answer : "Perasaanmu semakin tidak keruan. Kamu mempercepat larimu secara tidak beraturan atau zig-zag."
+			answer : "Perasaanmu semakin tidak keruan. Kamu mempercepat larimu secara tidak beraturan."
 		}
 	],
 	Answers_For_Next_Event_List : [
