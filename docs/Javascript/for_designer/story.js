@@ -796,7 +796,7 @@ export const Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau = new
 
 export const Kamu_Menemukan_Rumah_Kecil_Rute_Biru = new Event ({
 	Name : "Kamu_Menemukan_Rumah_Kecil_Rute_Biru",
-	Occurence : "ejutan! Ternyata di balik cahaya itu adalah sebuah rumah kecil. Arsitekturnya mirip dengan rumah yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
+	Occurence : "Kejutan! Ternyata di balik cahaya itu adalah sebuah rumah kecil. Arsitekturnya mirip dengan rumah yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
 	Question : "",
 	Possible_Answer_List : [
 		{
