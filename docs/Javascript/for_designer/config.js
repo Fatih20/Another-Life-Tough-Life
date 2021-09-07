@@ -38,6 +38,6 @@ export const paragraph_periodicity = {
     period : 2
 }
 
-export const show_ending_option_button = true;
+export const show_ending_option_button = false;
 
 export const default_story_ending = false;
