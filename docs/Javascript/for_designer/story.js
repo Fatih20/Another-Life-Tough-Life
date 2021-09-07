@@ -19,7 +19,7 @@ export const Start = new Event({
 
 export const Kamu_Dipindahkan_Ke_Dunia_Lain_Secara_Tiba_Tiba = new Event ({
 	Name : "Kamu_Dipindahkan_Ke_Dunia_Lain_Secara_Tiba_Tiba",
-	Occurence : "1 Kamu dipindahkan ke dunia lain secara tiba-tiba.j",
+	Occurence : "1 Kamu dipindahkan ke dunia lain secara tiba-tiba.",
 	Question : "",
 	Possible_Answer_List : [
 		{
