@@ -1,4 +1,4 @@
-localStorage.removeItem("path_taken");
+// localStorage.removeItem("path_taken");
 // localStorage.removeItem("dark_theme");
 
 import { display_ending_option_button, display_replay_button, display_attribution, play_area_direction_row } from "./imported_modules/tools.js";
