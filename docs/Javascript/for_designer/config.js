@@ -27,9 +27,14 @@ export const animation = {
 
 export const attribution = [
     {
-        text : "Web development by",
+        text : "Web development by ",
         linked_text : "@fatih20",
         link : "https://github.com/Fatih20"
+    },
+    {
+        text : "Story by ",
+        linked_text : "@wicaksonorahadianadiguna",
+        link : "https://www.instagram.com/wicaksonorahadianadiguna/"
     }
 ];
 
