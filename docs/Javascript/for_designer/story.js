@@ -108,7 +108,7 @@ export const Kamu_Memerhatikan_Lingkungan_Sekitar_Dengan_Ketakutan = new Event (
 
 export const Kamu_Memerhatikan_Lingkungan_Sekitar_Dan_Melihat_Hewan = new Event ({
 	Name : "Kamu_Memerhatikan_Lingkungan_Sekitar_Dan_Melihat_Hewan",
-	Occurence : "5 Kamu mulai memerhatikan lingkungan sekitar. Kamu sedang berada di sebuah hutan, sendirian. Hari sedang mendung berat dan semuanya tampak cukup gelap. Kamu menemukan hewan yang tidak kamu kenal di dunia sebelumnya. Kamu merogoh saku bajumu dan menemukan sebuah belati.",
+	Occurence : "Kamu sedang berada di sebuah hutan, sendirian. Hari sedang mendung berat dan semuanya tampak cukup gelap. Kamu menemukan hewan yang tidak kamu kenal di dunia sebelumnya. Kamu merogoh saku bajumu dan menemukan sebuah belati.",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -164,7 +164,7 @@ export const Kamu_Diterkam_Tiba_Tiba_Dan_Mati = new Event ({
 
 export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 	Name : "Kamu_Berteriak_Keras_Lalu_Mulai_Berlari",
-	Occurence : "8 Secara refleks kamu berteriak keras, ketakutanmu sudah mencapai batasnya. Kamu tiba-tiba saja masuk ke dunia lain yang benar-benar asing yang membuatmu panik. Kamu mulai berlarian tanpa arah sambil terus berteriak.",
+	Occurence : "Secara refleks kamu berteriak keras, ketakutanmu sudah mencapai batasnya. Kamu tiba-tiba saja masuk ke dunia lain yang benar-benar asing yang membuatmu panik. Kamu mulai berlarian sambil terus berteriak.",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -185,7 +185,7 @@ export const Kamu_Berteriak_Keras_Lalu_Mulai_Berlari = new Event ({
 
 export const Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu = new Event ({
 	Name : "Percepat_Lari_Karena_Ada_Hewan_Buas_Mengejarmu",
-	Occurence : "9 Ternyata ada auman hewan buas terdengar dari kejauhan! Kamu melihat ke belakang, ternyata ada hewan buas asing yang tidak kamu kenali sedang mengejarmu. Mungkin hewan itu mendengar teriakan kencangmu barusan. Kamu mempercepat larimu. ",
+	Occurence : "Ternyata ada auman hewan buas terdengar dari kejauhan! Kamu melihat ke belakang, ternyata ada hewan buas asing yang tidak kamu kenali sedang mengejarmu. Mungkin hewan itu mendengar teriakan kencangmu barusan.",
 	Question : "",
 	Possible_Answer_List : [
 		{
@@ -649,8 +649,8 @@ export const Kamu_Dikejar_Pria_Yang_Tadi = new Event ({
 
 export const Kamu_Tersandung_Dan_Dibunuh_Pria_Itu = new Event ({
 	Name : "Kamu_Tersandung_Dan_Dibunuh_Pria_Itu",
-	Occurence : "Kamu berlari secepat yang kamu bisa, namun tetap saja kamu sama sekali tidak mengenali tempat ini, ditambah hari sudah malam dan jarak pandang terbatas. Pada satu kesempatan, kamu tersandung oleh sesuatu yang tidak bisa kamu lihat dan pria itu berhasil mengejarmu. Ia tanpa ampun langsung menusuk dadamu tanpa dan membakarmu hidup-hidup. Kamu tewas seketika.​​​",
-	Question : "28",
+	Occurence : "Kamu berlari secepat yang kamu bisa, namun tetap saja kamu sama sekali tidak mengenali tempat ini, ditambah hari sudah malam dan jarak pandang terbatas. Pada satu kesempatan, kamu tersandung oleh sesuatu yang tidak bisa kamu lihat dan pria itu berhasil mengejarmu. Ia tanpa ampun langsung menusuk dadamu dan membakarmu hidup-hidup. Kamu tewas seketika.​​​",
+	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
@@ -796,8 +796,8 @@ export const Kamu_Terbunuh_Setelah_Punggungmu_Tertusuk_Dari_Lemparan_Pisau = new
 
 export const Kamu_Menemukan_Rumah_Kecil_Rute_Biru = new Event ({
 	Name : "Kamu_Menemukan_Rumah_Kecil_Rute_Biru",
-	Occurence : "ejutan! Ternyata di balik cahaya itu adalah sebuah rumah kecil. Arsitekturnya mirip dengan rumah yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
-	Question : "37",
+	Occurence : "Kejutan! Ternyata di balik cahaya itu adalah sebuah rumah kecil. Arsitekturnya mirip dengan rumah yang ia kenali di dunia sebelumnya. Kemungkinan dibangun manusia. Tapi, tentu saja kamu ingin memastikan apakah di dunia lain ini  memang ada manusia lain sepertinya, dan sekarang adalah waktu yang paling pas untuk memastikannya.​​",
+	Question : "",
 	Possible_Answer_List : [
 		{
 			id : "A",
